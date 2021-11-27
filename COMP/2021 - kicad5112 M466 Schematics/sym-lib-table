@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name 2021_-_kicad5112_M466_Schematics-eagle-import)(type Legacy)(uri ${KIPRJMOD}/2021_-_kicad5112_M466_Schematics-eagle-import.lib)(options "")(descr ""))
+  (lib (name ControlAmplifier-eagle-import)(type Legacy)(uri ${KIPRJMOD}/ControlAmplifier-eagle-import.lib)(options "")(descr ""))
+  (lib (name OutputAmplifier-eagle-import)(type Legacy)(uri ${KIPRJMOD}/OutputAmplifier-eagle-import.lib)(options "")(descr ""))
+)
