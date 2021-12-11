@@ -1,0 +1,1803 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 6
+Title "M466 Control Amplifier"
+Date "2021-11-27"
+Rev ""
+Comp "WardBeck Systems Ltd & APK Audio"
+Comment1 "Converted to Kicad 5.1.12 by Arthur P. Bastos"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	2000 1400 2000 1500
+Wire Wire Line
+	2200 1800 2300 1800
+Wire Wire Line
+	2800 2800 2800 2900
+Text Label 2800 2800 0    10   ~ 0
+GND
+Wire Wire Line
+	2300 2100 2000 2100
+Connection ~ 2000 2100
+Text Label 2300 2100 0    10   ~ 0
+GND
+Wire Wire Line
+	5200 2800 5200 3000
+Wire Wire Line
+	5200 3000 5700 3000
+Wire Wire Line
+	5700 3000 5700 2900
+Wire Wire Line
+	5700 3100 5700 3000
+Connection ~ 5700 3000
+Text Label 5200 2800 0    10   ~ 0
+GND
+Wire Wire Line
+	8700 3800 8500 3800
+Wire Wire Line
+	8500 3800 8500 3900
+Text Label 8700 3800 0    10   ~ 0
+GND
+Wire Wire Line
+	14400 2600 14400 2700
+Wire Wire Line
+	14400 2700 14600 2700
+Wire Wire Line
+	14600 2700 14900 2700
+Wire Wire Line
+	14600 2800 14600 2700
+Wire Wire Line
+	14400 2700 13800 2700
+Connection ~ 14400 2700
+Connection ~ 14600 2700
+Text Label 14400 2600 0    10   ~ 0
+GND
+Wire Wire Line
+	12200 3900 12100 3900
+Wire Wire Line
+	12100 3900 12100 4000
+Text Label 12200 3900 0    10   ~ 0
+GND
+Wire Wire Line
+	12400 5700 12400 5600
+Text Label 12400 5700 0    10   ~ 0
+GND
+Wire Wire Line
+	1900 5800 1900 6100
+Wire Wire Line
+	1900 6100 1900 6200
+Wire Wire Line
+	2300 6000 2300 6100
+Wire Wire Line
+	2300 6100 1900 6100
+Connection ~ 1900 6100
+Text Label 1900 5800 0    10   ~ 0
+GND
+Wire Wire Line
+	1600 7700 1400 7700
+Wire Wire Line
+	1900 7500 1400 7500
+Wire Wire Line
+	1400 7500 1400 7700
+Connection ~ 1400 7700
+Text Label 1600 7700 0    10   ~ 0
+GND
+Wire Wire Line
+	3500 1100 3900 1100
+Wire Wire Line
+	2800 2400 2800 2300
+Wire Wire Line
+	3200 2300 2800 2300
+Wire Wire Line
+	1100 2300 2800 2300
+Connection ~ 2800 2300
+Wire Wire Line
+	3200 2100 3100 2100
+Wire Wire Line
+	3100 2100 2700 2100
+Wire Wire Line
+	3100 1600 3200 1600
+Wire Wire Line
+	3100 1100 3100 1400
+Wire Wire Line
+	3100 1400 3100 1600
+Wire Wire Line
+	3100 1400 3500 1400
+Wire Wire Line
+	3100 1600 3100 1800
+Wire Wire Line
+	2700 1800 2900 1800
+Wire Wire Line
+	2900 1800 2900 1700
+Wire Wire Line
+	3100 1800 2900 1800
+Wire Wire Line
+	3100 2100 3100 1800
+Connection ~ 3100 1400
+Connection ~ 3100 2100
+Connection ~ 3100 1800
+Connection ~ 3100 1600
+Connection ~ 2900 1800
+Wire Wire Line
+	3800 2800 3900 2800
+Wire Wire Line
+	3500 2500 3500 2800
+Wire Wire Line
+	3900 2400 3900 2100
+Wire Wire Line
+	3900 2100 3800 2100
+Wire Wire Line
+	3400 1600 4000 1600
+Wire Wire Line
+	3800 2200 4000 2200
+Wire Wire Line
+	4000 2200 4100 2200
+Wire Wire Line
+	4000 1600 4000 2200
+Connection ~ 4000 2200
+Wire Wire Line
+	4600 2200 4300 2200
+Wire Wire Line
+	5000 2200 5200 2200
+Wire Wire Line
+	5200 2500 5200 2200
+Wire Wire Line
+	5200 2200 5700 2200
+Wire Wire Line
+	5700 2200 5700 2500
+Wire Wire Line
+	6100 2200 5700 2200
+Connection ~ 5200 2200
+Connection ~ 5700 2200
+Wire Wire Line
+	6100 2400 5900 2400
+Wire Wire Line
+	5900 2400 5900 3000
+Wire Wire Line
+	5900 3000 5900 3300
+Wire Wire Line
+	5900 3300 6000 3300
+Wire Wire Line
+	6700 3000 5900 3000
+Connection ~ 5900 3000
+Wire Wire Line
+	6900 3000 7500 3000
+Wire Wire Line
+	7500 3000 7500 3300
+Wire Wire Line
+	7500 3300 7200 3300
+Wire Wire Line
+	6700 2300 7500 2300
+Wire Wire Line
+	7500 2300 7500 3000
+Connection ~ 7500 3000
+Wire Wire Line
+	6400 2600 6400 2800
+Wire Wire Line
+	6700 2800 7100 2800
+Wire Wire Line
+	7100 2400 7100 2200
+Wire Wire Line
+	7100 2200 6700 2200
+Wire Wire Line
+	7000 3300 6500 3300
+Wire Wire Line
+	6500 3300 6400 3300
+Wire Wire Line
+	6500 3600 6500 3300
+Wire Wire Line
+	4200 1100 4400 1100
+Wire Wire Line
+	4400 1100 4400 1400
+Wire Wire Line
+	4400 1400 3900 1400
+Wire Wire Line
+	4400 1400 7700 1400
+Wire Wire Line
+	7700 1400 7700 3600
+Wire Wire Line
+	7700 3600 7800 3600
+Wire Wire Line
+	6500 3600 7700 3600
+Connection ~ 4400 1400
+Connection ~ 6500 3300
+Connection ~ 7700 3600
+Wire Wire Line
+	10000 3300 10000 3400
+Wire Wire Line
+	10000 3400 10000 3700
+Wire Wire Line
+	9800 3000 9700 3000
+Wire Wire Line
+	9700 3000 9700 3400
+Wire Wire Line
+	9700 3400 10000 3400
+Wire Wire Line
+	9300 3700 9600 3700
+Wire Wire Line
+	9600 3700 10000 3700
+Wire Wire Line
+	10000 3700 10200 3700
+Wire Wire Line
+	9100 3000 9600 3000
+Wire Wire Line
+	9600 3000 9600 3700
+Connection ~ 10000 3400
+Connection ~ 9600 3700
+Connection ~ 10000 3700
+Wire Wire Line
+	8200 3600 8300 3600
+Wire Wire Line
+	8300 3600 8700 3600
+Wire Wire Line
+	8500 3200 8300 3200
+Wire Wire Line
+	8300 3200 8300 3600
+Wire Wire Line
+	8900 3000 8300 3000
+Wire Wire Line
+	8300 3000 8300 3200
+Wire Wire Line
+	8300 1900 8300 2000
+Wire Wire Line
+	8300 2000 8300 3000
+Wire Wire Line
+	9200 2000 8300 2000
+Connection ~ 8300 3600
+Connection ~ 8300 3200
+Connection ~ 8300 3000
+Connection ~ 8300 2000
+Wire Wire Line
+	9300 4300 9500 4300
+Wire Wire Line
+	9000 4000 9000 4300
+Wire Wire Line
+	10000 2600 10000 2700
+Wire Wire Line
+	10000 2200 10000 2000
+Wire Wire Line
+	10000 2000 9600 2000
+Wire Wire Line
+	9300 3600 9500 3600
+Wire Wire Line
+	9500 3600 9500 3900
+Wire Wire Line
+	9500 3600 9500 3200
+Wire Wire Line
+	9500 3200 8800 3200
+Connection ~ 9500 3600
+Wire Wire Line
+	11400 3700 11300 3700
+Wire Wire Line
+	11300 3700 11100 3700
+Wire Wire Line
+	11100 3700 10600 3700
+Wire Wire Line
+	10400 3900 10400 4200
+Wire Wire Line
+	10400 4200 11100 4200
+Wire Wire Line
+	11100 4200 11100 3700
+Wire Wire Line
+	11300 3700 11300 2200
+Connection ~ 11100 3700
+Connection ~ 11300 3700
+Wire Wire Line
+	12800 3700 13000 3700
+Wire Wire Line
+	13000 3700 13000 4000
+Wire Wire Line
+	12600 4500 12500 4500
+Wire Wire Line
+	12500 4500 12500 4100
+Wire Wire Line
+	12900 4500 13000 4500
+Wire Wire Line
+	13000 4500 13000 4400
+Wire Wire Line
+	12200 3700 12000 3700
+Wire Wire Line
+	12000 3700 11900 3700
+Wire Wire Line
+	11900 3700 11800 3700
+Wire Wire Line
+	11900 4600 11900 4400
+Wire Wire Line
+	11900 4400 11900 3700
+Wire Wire Line
+	12700 3200 12000 3200
+Wire Wire Line
+	12000 3200 12000 3700
+Wire Wire Line
+	12000 3200 12000 2900
+Wire Wire Line
+	12100 2900 12000 2900
+Wire Wire Line
+	12000 2700 12000 2900
+Wire Wire Line
+	11900 4400 11800 4400
+Connection ~ 11900 3700
+Connection ~ 12000 3700
+Connection ~ 12000 2900
+Connection ~ 12000 3200
+Connection ~ 11900 4400
+Wire Wire Line
+	12400 5100 14900 5100
+Wire Wire Line
+	12400 5200 12400 5100
+Wire Wire Line
+	11900 5000 11900 5100
+Wire Wire Line
+	11900 5100 12400 5100
+Wire Wire Line
+	11900 5100 5200 5100
+Wire Wire Line
+	5200 5100 5200 5600
+Wire Wire Line
+	5200 5600 4000 5600
+Wire Wire Line
+	4100 5300 4000 5300
+Wire Wire Line
+	4000 5300 3800 5300
+Wire Wire Line
+	4000 5600 4000 5300
+Connection ~ 4000 5300
+Connection ~ 12400 5100
+Connection ~ 11900 5100
+Wire Wire Line
+	12800 3800 13300 3800
+Wire Wire Line
+	13300 3800 13300 3200
+Wire Wire Line
+	13300 3200 13100 3200
+Wire Wire Line
+	14900 3800 13300 3800
+Connection ~ 13300 3800
+Wire Wire Line
+	14600 3100 14600 3200
+Wire Wire Line
+	14600 3200 14900 3200
+Wire Wire Line
+	14600 3200 13900 3200
+Connection ~ 14600 3200
+Text Label 14600 3100 0    10   ~ 0
+-16V
+Wire Wire Line
+	8300 1400 8300 1500
+Text Label 8300 1400 0    10   ~ 0
+-16V
+Wire Wire Line
+	1900 4500 1900 4600
+Text Label 1900 4500 0    10   ~ 0
+-16V
+Wire Wire Line
+	2300 7300 1300 7300
+Text Label 2300 7300 0    10   ~ 0
+-16V
+Wire Wire Line
+	2000 900  2000 1000
+Text Label 2000 900  0    10   ~ 0
+-16V
+Wire Wire Line
+	3300 6900 3300 6800
+Text Label 3300 6900 0    10   ~ 0
++15V
+Wire Wire Line
+	8900 3300 8900 3400
+Text Label 8900 3300 0    10   ~ 0
++15V
+Wire Wire Line
+	13000 2900 12500 2900
+Text Label 13000 2900 0    10   ~ 0
++15V
+Wire Wire Line
+	2900 900  2900 1300
+Text Label 2900 900  0    10   ~ 0
++15V
+Wire Wire Line
+	14900 2200 14400 2200
+Wire Wire Line
+	14400 2200 14400 2300
+Wire Wire Line
+	14400 2200 13900 2200
+Connection ~ 14400 2200
+Text Label 14900 2200 0    10   ~ 0
++15V
+Wire Wire Line
+	12000 2200 12000 2300
+Wire Wire Line
+	11400 4400 11300 4400
+Wire Wire Line
+	11300 4400 11300 4500
+Wire Wire Line
+	11100 4400 11300 4400
+Connection ~ 11300 4400
+Wire Wire Line
+	3800 3700 4000 3700
+Wire Wire Line
+	4000 3700 4000 3900
+Wire Wire Line
+	4000 4300 3800 4300
+Wire Wire Line
+	3500 4300 3500 4100
+Wire Wire Line
+	3200 3700 1500 3700
+Wire Wire Line
+	1500 3700 1100 3700
+Wire Wire Line
+	3100 7100 1500 7100
+Wire Wire Line
+	1500 7100 1500 6500
+Wire Wire Line
+	1500 6500 1500 3700
+Wire Wire Line
+	2400 6500 1500 6500
+Connection ~ 1500 3700
+Connection ~ 1500 6500
+Wire Wire Line
+	3800 3800 4500 3800
+Wire Wire Line
+	4500 3800 4500 4800
+Wire Wire Line
+	4500 4800 4100 4800
+Wire Wire Line
+	4500 4800 4500 5000
+Wire Wire Line
+	4500 5000 3700 5000
+Wire Wire Line
+	4500 5000 4500 5300
+Wire Wire Line
+	4500 5300 4300 5300
+Connection ~ 4500 5000
+Connection ~ 4500 4800
+Wire Wire Line
+	3900 4800 3400 4800
+Wire Wire Line
+	3400 5000 3000 5000
+Wire Wire Line
+	3000 5300 3000 5000
+Wire Wire Line
+	3000 5000 3000 4800
+Wire Wire Line
+	3000 4800 3000 3900
+Wire Wire Line
+	3000 3900 3200 3900
+Wire Wire Line
+	2800 5500 3000 5500
+Wire Wire Line
+	3000 5500 3000 5300
+Wire Wire Line
+	3200 5900 3000 5900
+Wire Wire Line
+	3000 5900 3000 5500
+Connection ~ 3000 4800
+Connection ~ 3000 5000
+Connection ~ 3000 5300
+Connection ~ 3000 5500
+Wire Wire Line
+	3600 5300 3400 5300
+Wire Wire Line
+	1900 5000 1900 5200
+Wire Wire Line
+	2400 5500 2300 5500
+Wire Wire Line
+	2300 5500 2100 5500
+Wire Wire Line
+	2300 5700 2300 5500
+Connection ~ 2300 5500
+Wire Wire Line
+	3400 7500 3400 7700
+Wire Wire Line
+	3700 7700 3900 7700
+Wire Wire Line
+	3900 7300 3900 7100
+Wire Wire Line
+	3900 7100 3700 7100
+Wire Wire Line
+	4100 5900 3900 5900
+Wire Wire Line
+	3600 5900 3900 5900
+Connection ~ 3900 5900
+Wire Wire Line
+	2800 6500 4500 6500
+Wire Wire Line
+	4500 6500 4500 5900
+Wire Wire Line
+	4500 8800 4500 6500
+Connection ~ 4500 6500
+Wire Wire Line
+	2200 7700 2300 7700
+Wire Wire Line
+	2700 7300 2800 7300
+Wire Wire Line
+	2800 7300 2800 7700
+Wire Wire Line
+	2800 7700 2700 7700
+Wire Wire Line
+	3100 7300 2800 7300
+Wire Wire Line
+	2800 7700 2800 8100
+Wire Wire Line
+	2800 8100 3100 8100
+Connection ~ 2800 7700
+Connection ~ 2800 7300
+Wire Wire Line
+	3700 7200 4100 7200
+Wire Wire Line
+	4100 7200 4100 8100
+Wire Wire Line
+	4100 8100 3500 8100
+Wire Wire Line
+	4100 8800 4100 8100
+Connection ~ 4100 8100
+$Comp
+L ControlAmplifier-eagle-import:R-US_R0805 R1
+U 1 1 FA0D8370
+P 2000 1200
+F 0 "R1" H 1850 1259 59  0000 L BNN
+F 1 "62K" H 1850 1070 59  0000 L BNN
+F 2 "ControlAmplifier:R0805" H 2000 1200 50  0001 C CNN
+F 3 "" H 2000 1200 50  0001 C CNN
+	1    2000 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:TRIM_US-3223G R2
+U 1 1 A7C8C866
+P 2000 1800
+F 0 "R2" V 1800 1700 59  0000 L BNN
+F 1 "5K" V 1900 1700 59  0000 L BNN
+F 2 "ControlAmplifier:3223G" H 2000 1800 50  0001 C CNN
+F 3 "" H 2000 1800 50  0001 C CNN
+	1    2000 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:R-US_R0805 R3
+U 1 1 2AC1A780
+P 2500 1800
+F 0 "R3" H 2350 1859 59  0000 L BNN
+F 1 "470K" H 2350 1670 59  0000 L BNN
+F 2 "ControlAmplifier:R0805" H 2500 1800 50  0001 C CNN
+F 3 "" H 2500 1800 50  0001 C CNN
+	1    2500 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:R-US_R0805 R4
+U 1 1 62C908C1
+P 2500 2100
+F 0 "R4" H 2350 2159 59  0000 L BNN
+F 1 "15K" H 2350 1970 59  0000 L BNN
+F 2 "ControlAmplifier:R0805" H 2500 2100 50  0001 C CNN
+F 3 "" H 2500 2100 50  0001 C CNN
+	1    2500 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:R-US_R0805 R5
+U 1 1 6D35EB61
+P 2800 2600
+F 0 "R5" H 2650 2659 59  0000 L BNN
+F 1 "220K" H 2650 2470 59  0000 L BNN
+F 2 "ControlAmplifier:R0805" H 2800 2600 50  0001 C CNN
+F 3 "" H 2800 2600 50  0001 C CNN
+	1    2800 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:R-US_R0805 R6
+U 1 1 43CE76AC
+P 3300 1100
+F 0 "R6" H 3150 1159 59  0000 L BNN
+F 1 "220" H 3150 970 59  0000 L BNN
+F 2 "ControlAmplifier:R0805" H 3300 1100 50  0001 C CNN
+F 3 "" H 3300 1100 50  0001 C CNN
+	1    3300 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:R-US_R0805 R7
+U 1 1 62F06ED1
+P 3900 2600
+F 0 "R7" H 3750 2659 59  0000 L BNN
+F 1 "620" H 3750 2470 59  0000 L BNN
+F 2 "ControlAmplifier:R0805" H 3900 2600 50  0001 C CNN
+F 3 "" H 3900 2600 50  0001 C CNN
+	1    3900 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:R-US_R0805 R8
+U 1 1 2D9C1844
+P 3700 1400
+F 0 "R8" H 3550 1459 59  0000 L BNN
+F 1 "47K" H 3550 1270 59  0000 L BNN
+F 2 "ControlAmplifier:R0805" H 3700 1400 50  0001 C CNN
+F 3 "" H 3700 1400 50  0001 C CNN
+	1    3700 1400
+	-1   0    0    1   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:R-US_R0805 R9
+U 1 1 476723E9
+P 4800 2200
+F 0 "R9" H 4650 2259 59  0000 L BNN
+F 1 "10K" H 4650 2070 59  0000 L BNN
+F 2 "ControlAmplifier:R0805" H 4800 2200 50  0001 C CNN
+F 3 "" H 4800 2200 50  0001 C CNN
+	1    4800 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:LM201D IC1
+U 1 1 70C115B1
+P 3500 2200
+F 0 "IC1" H 3600 2425 59  0000 L BNN
+F 1 "LM201D" H 3600 2000 59  0000 L BNN
+F 2 "ControlAmplifier:SO08" H 3500 2200 50  0001 C CNN
+F 3 "" H 3500 2200 50  0001 C CNN
+	1    3500 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:LM201D IC2
+U 1 1 3C0E41D9
+P 3500 3800
+F 0 "IC2" H 3600 4025 59  0000 L BNN
+F 1 "LM201D" H 3600 3600 59  0000 L BNN
+F 2 "ControlAmplifier:SO08" H 3500 3800 50  0001 C CNN
+F 3 "" H 3500 3800 50  0001 C CNN
+	1    3500 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:LM201D IC3
+U 1 1 4F085CBE
+P 3400 7200
+F 0 "IC3" H 3500 7425 59  0000 L BNN
+F 1 "LM201D" H 3500 7000 59  0000 L BNN
+F 2 "ControlAmplifier:SO08" H 3400 7200 50  0001 C CNN
+F 3 "" H 3400 7200 50  0001 C CNN
+	1    3400 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:LM201D IC4
+U 1 1 FDC91D6D
+P 6400 2300
+F 0 "IC4" H 6500 2525 59  0000 L BNN
+F 1 "LM201D" H 6500 2100 59  0000 L BNN
+F 2 "ControlAmplifier:SO08" H 6400 2300 50  0001 C CNN
+F 3 "" H 6400 2300 50  0001 C CNN
+	1    6400 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:LM201D IC5
+U 1 1 B6B8F164
+P 9000 3700
+F 0 "IC5" H 9100 3925 59  0000 L BNN
+F 1 "LM201D" H 9100 3500 59  0000 L BNN
+F 2 "ControlAmplifier:SO08" H 9000 3700 50  0001 C CNN
+F 3 "" H 9000 3700 50  0001 C CNN
+	1    9000 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:LM201D IC6
+U 1 1 A2559645
+P 12500 3800
+F 0 "IC6" H 12600 4025 59  0000 L BNN
+F 1 "LM201D" H 12600 3600 59  0000 L BNN
+F 2 "ControlAmplifier:SO08" H 12500 3800 50  0001 C CNN
+F 3 "" H 12500 3800 50  0001 C CNN
+	1    12500 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:1N4004 D1
+U 1 1 DA5D11AB
+P 3300 1600
+F 0 "D1" H 3400 1619 59  0000 L BNN
+F 1 "1N4004" H 3400 1509 59  0000 L BNN
+F 2 "ControlAmplifier:DO41-10" H 3300 1600 50  0001 C CNN
+F 3 "" H 3300 1600 50  0001 C CNN
+	1    3300 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:1N4004 D2
+U 1 1 74A9BC2C
+P 4200 2200
+F 0 "D2" H 4300 2219 59  0000 L BNN
+F 1 "1N4004" H 4300 2109 59  0000 L BNN
+F 2 "ControlAmplifier:DO41-10" H 4200 2200 50  0001 C CNN
+F 3 "" H 4200 2200 50  0001 C CNN
+	1    4200 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:1N4004 D3
+U 1 1 16D8F47B
+P 6800 3000
+F 0 "D3" H 6900 3019 59  0000 L BNN
+F 1 "1N4004" H 6900 2909 59  0000 L BNN
+F 2 "ControlAmplifier:DO41-10" H 6800 3000 50  0001 C CNN
+F 3 "" H 6800 3000 50  0001 C CNN
+	1    6800 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:1N4004 D4
+U 1 1 F5068E1D
+P 7100 3300
+F 0 "D4" H 7200 3319 59  0000 L BNN
+F 1 "1N4004" H 7200 3209 59  0000 L BNN
+F 2 "ControlAmplifier:DO41-10" H 7100 3300 50  0001 C CNN
+F 3 "" H 7100 3300 50  0001 C CNN
+	1    7100 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:1N4004 D5
+U 1 1 9E0BEA3A
+P 9000 3000
+F 0 "D5" H 9100 3019 59  0000 L BNN
+F 1 "1N4004" H 9100 2909 59  0000 L BNN
+F 2 "ControlAmplifier:DO41-10" H 9000 3000 50  0001 C CNN
+F 3 "" H 9000 3000 50  0001 C CNN
+	1    9000 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:1N4004 D6
+U 1 1 A1A21E2A
+P 4000 4800
+F 0 "D6" H 4100 4819 59  0000 L BNN
+F 1 "1N4004" H 4100 4709 59  0000 L BNN
+F 2 "ControlAmplifier:DO41-10" H 4000 4800 50  0001 C CNN
+F 3 "" H 4000 4800 50  0001 C CNN
+	1    4000 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:1N4004 D7
+U 1 1 75943D44
+P 3700 5300
+F 0 "D7" H 3800 5319 59  0000 L BNN
+F 1 "1N4004" H 3800 5209 59  0000 L BNN
+F 2 "ControlAmplifier:DO41-10" H 3700 5300 50  0001 C CNN
+F 3 "" H 3700 5300 50  0001 C CNN
+	1    3700 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:1N4004 D8
+U 1 1 B2928698
+P 4200 5300
+F 0 "D8" H 4300 5319 59  0000 L BNN
+F 1 "1N4004" H 4300 5209 59  0000 L BNN
+F 2 "ControlAmplifier:DO41-10" H 4200 5300 50  0001 C CNN
+F 3 "" H 4200 5300 50  0001 C CNN
+	1    4200 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:GND #GND1
+U 1 1 A7315E89
+P 2000 2200
+F 0 "#GND1" H 2000 2200 50  0001 C CNN
+F 1 "GND" H 1900 2100 59  0000 L BNN
+F 2 "" H 2000 2200 50  0001 C CNN
+F 3 "" H 2000 2200 50  0001 C CNN
+	1    2000 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:GND #GND2
+U 1 1 C92C8F3B
+P 2800 3000
+F 0 "#GND2" H 2800 3000 50  0001 C CNN
+F 1 "GND" H 2700 2900 59  0000 L BNN
+F 2 "" H 2800 3000 50  0001 C CNN
+F 3 "" H 2800 3000 50  0001 C CNN
+	1    2800 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:R-US_R0805 R38
+U 1 1 9C432EC8
+P 2900 1500
+F 0 "R38" H 2750 1559 59  0000 L BNN
+F 1 "22M" H 2750 1370 59  0000 L BNN
+F 2 "ControlAmplifier:R0805" H 2900 1500 50  0001 C CNN
+F 3 "" H 2900 1500 50  0001 C CNN
+	1    2900 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:C2.5_5 C1
+U 1 1 D9E86058
+P 3700 2800
+F 0 "C1" H 3760 2815 59  0000 L BNN
+F 1 "15p" H 3760 2615 59  0000 L BNN
+F 2 "ControlAmplifier:C2.5-5" H 3700 2800 50  0001 C CNN
+F 3 "" H 3700 2800 50  0001 C CNN
+	1    3700 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:C-USC0805 C2
+U 1 1 754EB735
+P 4100 1100
+F 0 "C2" H 4140 1125 59  0000 L BNN
+F 1 ".47/35" H 4140 935 59  0000 L BNN
+F 2 "ControlAmplifier:C0805" H 4100 1100 50  0001 C CNN
+F 3 "" H 4100 1100 50  0001 C CNN
+	1    4100 1100
+	0    1    1    0   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:C-USC0805 C3
+U 1 1 57F3AF20
+P 5200 2600
+F 0 "C3" H 5240 2625 59  0000 L BNN
+F 1 "1/35" H 5240 2435 59  0000 L BNN
+F 2 "ControlAmplifier:C0805" H 5200 2600 50  0001 C CNN
+F 3 "" H 5200 2600 50  0001 C CNN
+	1    5200 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:C2.5_5 C4
+U 1 1 7F4C3A76
+P 6500 2800
+F 0 "C4" H 6560 2815 59  0000 L BNN
+F 1 "15P" H 6560 2615 59  0000 L BNN
+F 2 "ControlAmplifier:C2.5-5" H 6500 2800 50  0001 C CNN
+F 3 "" H 6500 2800 50  0001 C CNN
+	1    6500 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:R-US_R0805 R10
+U 1 1 B68E7DC1
+P 5700 2700
+F 0 "R10" H 5550 2759 59  0000 L BNN
+F 1 "4M7" H 5550 2570 59  0000 L BNN
+F 2 "ControlAmplifier:R0805" H 5700 2700 50  0001 C CNN
+F 3 "" H 5700 2700 50  0001 C CNN
+	1    5700 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:R-US_R0805 R11
+U 1 1 E9B6C372
+P 7100 2600
+F 0 "R11" H 6950 2659 59  0000 L BNN
+F 1 "620" H 6950 2470 59  0000 L BNN
+F 2 "ControlAmplifier:R0805" H 7100 2600 50  0001 C CNN
+F 3 "" H 7100 2600 50  0001 C CNN
+	1    7100 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:R-US_R0805 R12
+U 1 1 AF4EA7DD
+P 6200 3300
+F 0 "R12" H 6050 3359 59  0000 L BNN
+F 1 "47K" H 6050 3170 59  0000 L BNN
+F 2 "ControlAmplifier:R0805" H 6200 3300 50  0001 C CNN
+F 3 "" H 6200 3300 50  0001 C CNN
+	1    6200 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:GND #GND3
+U 1 1 E2B99DEF
+P 5700 3200
+F 0 "#GND3" H 5700 3200 50  0001 C CNN
+F 1 "GND" H 5600 3100 59  0000 L BNN
+F 2 "" H 5700 3200 50  0001 C CNN
+F 3 "" H 5700 3200 50  0001 C CNN
+	1    5700 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:R-US_R0805 R13
+U 1 1 B7B2418A
+P 8000 3600
+F 0 "R13" H 7850 3659 59  0000 L BNN
+F 1 "10k" H 7850 3470 59  0000 L BNN
+F 2 "ControlAmplifier:R0805" H 8000 3600 50  0001 C CNN
+F 3 "" H 8000 3600 50  0001 C CNN
+	1    8000 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:R-US_R0805 R14
+U 1 1 D78918F9
+P 9500 4100
+F 0 "R14" H 9350 4159 59  0000 L BNN
+F 1 "620" H 9350 3970 59  0000 L BNN
+F 2 "ControlAmplifier:R0805" H 9500 4100 50  0001 C CNN
+F 3 "" H 9500 4100 50  0001 C CNN
+	1    9500 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:C2.5_5 C5
+U 1 1 2BC338E8
+P 8700 3200
+F 0 "C5" H 8760 3215 59  0000 L BNN
+F 1 "3p9" H 8760 3015 59  0000 L BNN
+F 2 "ControlAmplifier:C2.5-5" H 8700 3200 50  0001 C CNN
+F 3 "" H 8700 3200 50  0001 C CNN
+	1    8700 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:C2.5_5 C6
+U 1 1 32CEF33E
+P 9100 4300
+F 0 "C6" H 9160 4315 59  0000 L BNN
+F 1 "47p" H 9160 4115 59  0000 L BNN
+F 2 "ControlAmplifier:C2.5-5" H 9100 4300 50  0001 C CNN
+F 3 "" H 9100 4300 50  0001 C CNN
+	1    9100 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:R-US_R0805 R15
+U 1 1 02F9B2F1
+P 10000 2400
+F 0 "R15" H 9850 2459 59  0000 L BNN
+F 1 "10" H 9850 2270 59  0000 L BNN
+F 2 "ControlAmplifier:R0805" H 10000 2400 50  0001 C CNN
+F 3 "" H 10000 2400 50  0001 C CNN
+	1    10000 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:R-US_R0805 R17
+U 1 1 83B29D00
+P 11600 3700
+F 0 "R17" H 11450 3759 59  0000 L BNN
+F 1 "56k" H 11450 3570 59  0000 L BNN
+F 2 "ControlAmplifier:R0805" H 11600 3700 50  0001 C CNN
+F 3 "" H 11600 3700 50  0001 C CNN
+	1    11600 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:R-US_R0805 R18
+U 1 1 E5D4A5FE
+P 11900 4800
+F 0 "R18" H 11750 4859 59  0000 L BNN
+F 1 "4k7" H 11750 4670 59  0000 L BNN
+F 2 "ControlAmplifier:R0805" H 11900 4800 50  0001 C CNN
+F 3 "" H 11900 4800 50  0001 C CNN
+	1    11900 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:R-US_R0805 R19
+U 1 1 DFA9CF20
+P 12900 3200
+F 0 "R19" H 12750 3259 59  0000 L BNN
+F 1 "10K" H 12750 3070 59  0000 L BNN
+F 2 "ControlAmplifier:R0805" H 12900 3200 50  0001 C CNN
+F 3 "" H 12900 3200 50  0001 C CNN
+	1    12900 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:R-US_R0805 R20
+U 1 1 05B7D226
+P 13000 4200
+F 0 "R20" H 12850 4259 59  0000 L BNN
+F 1 "620" H 12850 4070 59  0000 L BNN
+F 2 "ControlAmplifier:R0805" H 13000 4200 50  0001 C CNN
+F 3 "" H 13000 4200 50  0001 C CNN
+	1    13000 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:TRIM_US-3223G R16
+U 1 1 87F83E77
+P 10000 3000
+F 0 "R16" V 9800 2900 59  0000 L BNN
+F 1 "500" V 9900 2900 59  0000 L BNN
+F 2 "ControlAmplifier:3223G" H 10000 3000 50  0001 C CNN
+F 3 "" H 10000 3000 50  0001 C CNN
+	1    10000 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:MAT-01H IC7
+U 1 1 3552F431
+P 9400 2100
+F 0 "IC7" H 9400 2350 59  0000 L BNN
+F 1 "MAT-01H" H 9400 2250 59  0000 L BNN
+F 2 "ControlAmplifier:TO78" H 9400 2100 50  0001 C CNN
+F 3 "" H 9400 2100 50  0001 C CNN
+	1    9400 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:MAT-01H IC7
+U 2 1 3552F43D
+P 10400 3800
+F 0 "IC7" H 10400 4050 59  0000 L BNN
+F 1 "MAT-01H" H 10400 3950 59  0000 L BNN
+F 2 "ControlAmplifier:TO78" H 10400 3800 50  0001 C CNN
+F 3 "" H 10400 3800 50  0001 C CNN
+	2    10400 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:R-US_R0805 R40
+U 1 1 86B216BF
+P 8300 1700
+F 0 "R40" H 8150 1759 59  0000 L BNN
+F 1 "3M3" H 8150 1570 59  0000 L BNN
+F 2 "ControlAmplifier:R0805" H 8300 1700 50  0001 C CNN
+F 3 "" H 8300 1700 50  0001 C CNN
+	1    8300 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:GND #GND4
+U 1 1 6AE2E73F
+P 9400 2300
+F 0 "#GND4" H 9400 2300 50  0001 C CNN
+F 1 "GND" H 9300 2200 59  0000 L BNN
+F 2 "" H 9400 2300 50  0001 C CNN
+F 3 "" H 9400 2300 50  0001 C CNN
+	1    9400 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:GND #GND5
+U 1 1 6CC61BFB
+P 8500 4000
+F 0 "#GND5" H 8500 4000 50  0001 C CNN
+F 1 "GND" H 8400 3900 59  0000 L BNN
+F 2 "" H 8500 4000 50  0001 C CNN
+F 3 "" H 8500 4000 50  0001 C CNN
+	1    8500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:C2.5_5 C7
+U 1 1 F5945D22
+P 12700 4500
+F 0 "C7" H 12760 4515 59  0000 L BNN
+F 1 "10p" H 12760 4315 59  0000 L BNN
+F 2 "ControlAmplifier:C2.5-5" H 12700 4500 50  0001 C CNN
+F 3 "" H 12700 4500 50  0001 C CNN
+	1    12700 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:SMD2 E13-LIMITMON
+U 1 1 B33672CF
+P 15000 5100
+F 0 "E13-LIMITMON" H 14955 5173 59  0000 L BNN
+F 1 "SMD2" H 14955 4970 59  0000 L BNN
+F 2 "ControlAmplifier:SMD1,27-2,54" H 15000 5100 50  0001 C CNN
+F 3 "" H 15000 5100 50  0001 C CNN
+	1    15000 5100
+	-1   0    0    1   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:R-US_R0805 R34
+U 1 1 03212E81
+P 12400 5400
+F 0 "R34" H 12250 5459 59  0000 L BNN
+F 1 "620" H 12250 5270 59  0000 L BNN
+F 2 "ControlAmplifier:R0805" H 12400 5400 50  0001 C CNN
+F 3 "" H 12400 5400 50  0001 C CNN
+	1    12400 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:R-US_R0805 R37
+U 1 1 56899464
+P 12300 2900
+F 0 "R37" H 12150 2959 59  0000 L BNN
+F 1 "10M" H 12150 2770 59  0000 L BNN
+F 2 "ControlAmplifier:R0805" H 12300 2900 50  0001 C CNN
+F 3 "" H 12300 2900 50  0001 C CNN
+	1    12300 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:R-US_R0805 R36
+U 1 1 387B7195
+P 12000 2500
+F 0 "R36" H 11850 2559 59  0000 L BNN
+F 1 "3K6" H 11850 2370 59  0000 L BNN
+F 2 "ControlAmplifier:R0805" H 12000 2500 50  0001 C CNN
+F 3 "" H 12000 2500 50  0001 C CNN
+	1    12000 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:SMD2 E10-CONTROL
+U 1 1 A059C050
+P 15000 3800
+F 0 "E10-CONTROL" H 14955 3873 59  0000 L BNN
+F 1 "SMD2" H 14955 3670 59  0000 L BNN
+F 2 "ControlAmplifier:SMD1,27-2,54" H 15000 3800 50  0001 C CNN
+F 3 "" H 15000 3800 50  0001 C CNN
+	1    15000 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:SMD2 E7
+U 1 1 05F8F254
+P 15000 3200
+F 0 "E7" H 14955 3273 59  0000 L BNN
+F 1 "SMD2" H 14955 3070 59  0000 L BNN
+F 2 "ControlAmplifier:SMD1,27-2,54" H 15000 3200 50  0001 C CNN
+F 3 "" H 15000 3200 50  0001 C CNN
+	1    15000 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:SMD2 E6
+U 1 1 BB2A911A
+P 15000 2700
+F 0 "E6" H 14955 2773 59  0000 L BNN
+F 1 "SMD2" H 14955 2570 59  0000 L BNN
+F 2 "ControlAmplifier:SMD1,27-2,54" H 15000 2700 50  0001 C CNN
+F 3 "" H 15000 2700 50  0001 C CNN
+	1    15000 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:SMD2 E5
+U 1 1 557D9ADD
+P 15000 2200
+F 0 "E5" H 14955 2273 59  0000 L BNN
+F 1 "SMD2" H 14955 2070 59  0000 L BNN
+F 2 "ControlAmplifier:SMD1,27-2,54" H 15000 2200 50  0001 C CNN
+F 3 "" H 15000 2200 50  0001 C CNN
+	1    15000 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:C-USC0805 C14
+U 1 1 FF85DB19
+P 14600 3000
+F 0 "C14" H 14640 3025 59  0000 L BNN
+F 1 "22/25" H 14640 2835 59  0000 L BNN
+F 2 "ControlAmplifier:C0805" H 14600 3000 50  0001 C CNN
+F 3 "" H 14600 3000 50  0001 C CNN
+	1    14600 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:C-USC0805 C13
+U 1 1 A828B3A2
+P 14400 2400
+F 0 "C13" H 14440 2425 59  0000 L BNN
+F 1 "22/25" H 14440 2235 59  0000 L BNN
+F 2 "ControlAmplifier:C0805" H 14400 2400 50  0001 C CNN
+F 3 "" H 14400 2400 50  0001 C CNN
+	1    14400 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:GND #GND6
+U 1 1 6DBAC010
+P 13800 2800
+F 0 "#GND6" H 13800 2800 50  0001 C CNN
+F 1 "GND" H 13700 2700 59  0000 L BNN
+F 2 "" H 13800 2800 50  0001 C CNN
+F 3 "" H 13800 2800 50  0001 C CNN
+	1    13800 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:GND #GND7
+U 1 1 2E923FEC
+P 12100 4100
+F 0 "#GND7" H 12100 4100 50  0001 C CNN
+F 1 "GND" H 12000 4000 59  0000 L BNN
+F 2 "" H 12100 4100 50  0001 C CNN
+F 3 "" H 12100 4100 50  0001 C CNN
+	1    12100 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:GND #GND8
+U 1 1 D5805D3F
+P 12400 5800
+F 0 "#GND8" H 12400 5800 50  0001 C CNN
+F 1 "GND" H 12300 5700 59  0000 L BNN
+F 2 "" H 12400 5800 50  0001 C CNN
+F 3 "" H 12400 5800 50  0001 C CNN
+	1    12400 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:+15V #P+1
+U 1 1 48DD0DF0
+P 13800 2200
+F 0 "#P+1" H 13800 2200 50  0001 C CNN
+F 1 "+15V" V 13700 2000 59  0000 L BNN
+F 2 "" H 13800 2200 50  0001 C CNN
+F 3 "" H 13800 2200 50  0001 C CNN
+	1    13800 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:-15V #P-1
+U 1 1 71389A53
+P 13800 3200
+F 0 "#P-1" H 13800 3200 50  0001 C CNN
+F 1 "-15V" V 13700 3100 59  0000 L BNN
+F 2 "" H 13800 3200 50  0001 C CNN
+F 3 "" H 13800 3200 50  0001 C CNN
+	1    13800 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:SMD2 E11-COMPRESSOR
+U 1 1 46CF4D76
+P 1000 2300
+F 0 "E11-COMPRESSOR" H 955 2373 59  0000 L BNN
+F 1 "SMD2" H 955 2170 59  0000 L BNN
+F 2 "ControlAmplifier:SMD1,27-2,54" H 1000 2300 50  0001 C CNN
+F 3 "" H 1000 2300 50  0001 C CNN
+	1    1000 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:SMD2 E12-LIMITER
+U 1 1 DF60E27D
+P 1000 3700
+F 0 "E12-LIMITER" H 955 3773 59  0000 L BNN
+F 1 "SMD2" H 955 3570 59  0000 L BNN
+F 2 "ControlAmplifier:SMD1,27-2,54" H 1000 3700 50  0001 C CNN
+F 3 "" H 1000 3700 50  0001 C CNN
+	1    1000 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:+15V #P+2
+U 1 1 534F544F
+P 3400 3400
+F 0 "#P+2" H 3400 3400 50  0001 C CNN
+F 1 "+15V" V 3300 3200 59  0000 L BNN
+F 2 "" H 3400 3400 50  0001 C CNN
+F 3 "" H 3400 3400 50  0001 C CNN
+	1    3400 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:+15V #P+3
+U 1 1 4F0D6BCD
+P 3300 6700
+F 0 "#P+3" H 3300 6700 50  0001 C CNN
+F 1 "+15V" V 3200 6500 59  0000 L BNN
+F 2 "" H 3300 6700 50  0001 C CNN
+F 3 "" H 3300 6700 50  0001 C CNN
+	1    3300 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:+15V #P+4
+U 1 1 40DCAEBA
+P 9000 3300
+F 0 "#P+4" H 9000 3300 50  0001 C CNN
+F 1 "+15V" V 8900 3100 59  0000 L BNN
+F 2 "" H 9000 3300 50  0001 C CNN
+F 3 "" H 9000 3300 50  0001 C CNN
+	1    9000 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:+15V #P+5
+U 1 1 A86A3590
+P 6300 1900
+F 0 "#P+5" H 6300 1900 50  0001 C CNN
+F 1 "+15V" V 6200 1700 59  0000 L BNN
+F 2 "" H 6300 1900 50  0001 C CNN
+F 3 "" H 6300 1900 50  0001 C CNN
+	1    6300 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:+15V #P+6
+U 1 1 53312C75
+P 3400 1800
+F 0 "#P+6" H 3400 1800 50  0001 C CNN
+F 1 "+15V" V 3300 1600 59  0000 L BNN
+F 2 "" H 3400 1800 50  0001 C CNN
+F 3 "" H 3400 1800 50  0001 C CNN
+	1    3400 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:+15V #P+7
+U 1 1 F95C80BF
+P 12400 3400
+F 0 "#P+7" H 12400 3400 50  0001 C CNN
+F 1 "+15V" V 12300 3200 59  0000 L BNN
+F 2 "" H 12400 3400 50  0001 C CNN
+F 3 "" H 12400 3400 50  0001 C CNN
+	1    12400 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:-15V #P-2
+U 1 1 DE3A824C
+P 12400 4200
+F 0 "#P-2" H 12400 4200 50  0001 C CNN
+F 1 "-15V" V 12300 4100 59  0000 L BNN
+F 2 "" H 12400 4200 50  0001 C CNN
+F 3 "" H 12400 4200 50  0001 C CNN
+	1    12400 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:-15V #P-3
+U 1 1 565B26FE
+P 8900 4100
+F 0 "#P-3" H 8900 4100 50  0001 C CNN
+F 1 "-15V" V 8800 4000 59  0000 L BNN
+F 2 "" H 8900 4100 50  0001 C CNN
+F 3 "" H 8900 4100 50  0001 C CNN
+	1    8900 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:-15V #P-4
+U 1 1 E07BE806
+P 6300 2700
+F 0 "#P-4" H 6300 2700 50  0001 C CNN
+F 1 "-15V" V 6200 2600 59  0000 L BNN
+F 2 "" H 6300 2700 50  0001 C CNN
+F 3 "" H 6300 2700 50  0001 C CNN
+	1    6300 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:-15V #P-5
+U 1 1 79A984D2
+P 3400 2600
+F 0 "#P-5" H 3400 2600 50  0001 C CNN
+F 1 "-15V" V 3300 2500 59  0000 L BNN
+F 2 "" H 3400 2600 50  0001 C CNN
+F 3 "" H 3400 2600 50  0001 C CNN
+	1    3400 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:-15V #P-6
+U 1 1 D38AD879
+P 3300 7600
+F 0 "#P-6" H 3300 7600 50  0001 C CNN
+F 1 "-15V" V 3200 7500 59  0000 L BNN
+F 2 "" H 3300 7600 50  0001 C CNN
+F 3 "" H 3300 7600 50  0001 C CNN
+	1    3300 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:-15V #P-7
+U 1 1 90A27C61
+P 3400 4200
+F 0 "#P-7" H 3400 4200 50  0001 C CNN
+F 1 "-15V" V 3300 4100 59  0000 L BNN
+F 2 "" H 3400 4200 50  0001 C CNN
+F 3 "" H 3400 4200 50  0001 C CNN
+	1    3400 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:+15V #P+9
+U 1 1 A813F830
+P 13100 2900
+F 0 "#P+9" H 13100 2900 50  0001 C CNN
+F 1 "+15V" V 13000 2700 59  0000 L BNN
+F 2 "" H 13100 2900 50  0001 C CNN
+F 3 "" H 13100 2900 50  0001 C CNN
+	1    13100 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:SMD2 E15
+U 1 1 2FD98636
+P 12000 2100
+F 0 "E15" H 11955 2173 59  0000 L BNN
+F 1 "SMD2" H 11955 1970 59  0000 L BNN
+F 2 "ControlAmplifier:SMD1,27-2,54" H 12000 2100 50  0001 C CNN
+F 3 "" H 12000 2100 50  0001 C CNN
+	1    12000 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:SMD2 E14
+U 1 1 3A946D95
+P 11300 2100
+F 0 "E14" H 11255 2173 59  0000 L BNN
+F 1 "SMD2" H 11255 1970 59  0000 L BNN
+F 2 "ControlAmplifier:SMD1,27-2,54" H 11300 2100 50  0001 C CNN
+F 3 "" H 11300 2100 50  0001 C CNN
+	1    11300 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:-15V #P-8
+U 1 1 5A264947
+P 8300 1300
+F 0 "#P-8" H 8300 1300 50  0001 C CNN
+F 1 "-15V" V 8200 1200 59  0000 L BNN
+F 2 "" H 8300 1300 50  0001 C CNN
+F 3 "" H 8300 1300 50  0001 C CNN
+	1    8300 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:C-USC0805 C15
+U 1 1 C16D2BD5
+P 11300 4600
+F 0 "C15" H 11340 4625 59  0000 L BNN
+F 1 "4.7/10" H 11340 4435 59  0000 L BNN
+F 2 "ControlAmplifier:C0805" H 11300 4600 50  0001 C CNN
+F 3 "" H 11300 4600 50  0001 C CNN
+	1    11300 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:GND #GND9
+U 1 1 158B4DC7
+P 11300 4900
+F 0 "#GND9" H 11300 4900 50  0001 C CNN
+F 1 "GND" H 11200 4800 59  0000 L BNN
+F 2 "" H 11300 4900 50  0001 C CNN
+F 3 "" H 11300 4900 50  0001 C CNN
+	1    11300 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:SMD2 E9
+U 1 1 05274A19
+P 11000 4400
+F 0 "E9" H 10955 4473 59  0000 L BNN
+F 1 "SMD2" H 10955 4270 59  0000 L BNN
+F 2 "ControlAmplifier:SMD1,27-2,54" H 11000 4400 50  0001 C CNN
+F 3 "" H 11000 4400 50  0001 C CNN
+	1    11000 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:R-US_R0805 R35
+U 1 1 EF82C948
+P 11600 4400
+F 0 "R35" H 11450 4459 59  0000 L BNN
+F 1 "22K" H 11450 4270 59  0000 L BNN
+F 2 "ControlAmplifier:R0805" H 11600 4400 50  0001 C CNN
+F 3 "" H 11600 4400 50  0001 C CNN
+	1    11600 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:R-US_R0805 R21
+U 1 1 A509975A
+P 4000 4100
+F 0 "R21" H 3850 4159 59  0000 L BNN
+F 1 "620" H 3850 3970 59  0000 L BNN
+F 2 "ControlAmplifier:R0805" H 4000 4100 50  0001 C CNN
+F 3 "" H 4000 4100 50  0001 C CNN
+	1    4000 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:R-US_R0805 R28
+U 1 1 DF106C6B
+P 3900 7500
+F 0 "R28" H 3750 7559 59  0000 L BNN
+F 1 "620" H 3750 7370 59  0000 L BNN
+F 2 "ControlAmplifier:R0805" H 3900 7500 50  0001 C CNN
+F 3 "" H 3900 7500 50  0001 C CNN
+	1    3900 7500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:C2.5_5 C8
+U 1 1 879BD578
+P 3700 4300
+F 0 "C8" H 3760 4315 59  0000 L BNN
+F 1 "3p9" H 3760 4115 59  0000 L BNN
+F 2 "ControlAmplifier:C2.5-5" H 3700 4300 50  0001 C CNN
+F 3 "" H 3700 4300 50  0001 C CNN
+	1    3700 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:C2.5_5 C11
+U 1 1 926080E4
+P 3600 7700
+F 0 "C11" H 3660 7715 59  0000 L BNN
+F 1 "15p" H 3660 7515 59  0000 L BNN
+F 2 "ControlAmplifier:C2.5-5" H 3600 7700 50  0001 C CNN
+F 3 "" H 3600 7700 50  0001 C CNN
+	1    3600 7700
+	0    1    1    0   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:R-US_R0805 R22
+U 1 1 9EA85203
+P 3200 4800
+F 0 "R22" H 3050 4859 59  0000 L BNN
+F 1 "100K" H 3050 4670 59  0000 L BNN
+F 2 "ControlAmplifier:R0805" H 3200 4800 50  0001 C CNN
+F 3 "" H 3200 4800 50  0001 C CNN
+	1    3200 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:R-US_R0805 R23
+U 1 1 00BA79CB
+P 3200 5300
+F 0 "R23" H 3050 5359 59  0000 L BNN
+F 1 "100K" H 3050 5170 59  0000 L BNN
+F 2 "ControlAmplifier:R0805" H 3200 5300 50  0001 C CNN
+F 3 "" H 3200 5300 50  0001 C CNN
+	1    3200 5300
+	-1   0    0    1   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:R-US_R0805 R24
+U 1 1 44C85195
+P 1900 4800
+F 0 "R24" H 1750 4859 59  0000 L BNN
+F 1 "22K" H 1750 4670 59  0000 L BNN
+F 2 "ControlAmplifier:R0805" H 1900 4800 50  0001 C CNN
+F 3 "" H 1900 4800 50  0001 C CNN
+	1    1900 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:TRIM_US-3223G R25
+U 1 1 FCC5EF76
+P 1900 5500
+F 0 "R25" V 1700 5400 59  0000 L BNN
+F 1 "5K" V 1800 5400 59  0000 L BNN
+F 2 "ControlAmplifier:3223G" H 1900 5500 50  0001 C CNN
+F 3 "" H 1900 5500 50  0001 C CNN
+	1    1900 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:R-US_R0805 R26
+U 1 1 C3ABADC3
+P 2600 5500
+F 0 "R26" H 2450 5559 59  0000 L BNN
+F 1 "22K" H 2450 5370 59  0000 L BNN
+F 2 "ControlAmplifier:R0805" H 2600 5500 50  0001 C CNN
+F 3 "" H 2600 5500 50  0001 C CNN
+	1    2600 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:C2.5_5 C9
+U 1 1 BB6AD71A
+P 3600 5000
+F 0 "C9" H 3660 5015 59  0000 L BNN
+F 1 "4p7" H 3660 4815 59  0000 L BNN
+F 2 "ControlAmplifier:C2.5-5" H 3600 5000 50  0001 C CNN
+F 3 "" H 3600 5000 50  0001 C CNN
+	1    3600 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:C-USC0805 C10
+U 1 1 DEB32E1F
+P 2300 5900
+F 0 "C10" H 2340 5925 59  0000 L BNN
+F 1 "68/10" H 2340 5735 59  0000 L BNN
+F 2 "ControlAmplifier:C0805" H 2300 5900 50  0001 C CNN
+F 3 "" H 2300 5900 50  0001 C CNN
+	1    2300 5900
+	-1   0    0    1   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:C-USC0805 C12
+U 1 1 64FB103C
+P 3900 6100
+F 0 "C12" H 3940 6125 59  0000 L BNN
+F 1 "4.7/10" H 3940 5935 59  0000 L BNN
+F 2 "ControlAmplifier:C0805" H 3900 6100 50  0001 C CNN
+F 3 "" H 3900 6100 50  0001 C CNN
+	1    3900 6100
+	-1   0    0    1   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:GND #GND10
+U 1 1 EE95B960
+P 1900 6200
+F 0 "#GND10" H 1900 6200 50  0001 C CNN
+F 1 "GND" H 1800 6100 59  0000 L BNN
+F 2 "" H 1900 6200 50  0001 C CNN
+F 3 "" H 1900 6200 50  0001 C CNN
+	1    1900 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:-15V #P-9
+U 1 1 B4C445CE
+P 1900 4400
+F 0 "#P-9" H 1900 4400 50  0001 C CNN
+F 1 "-15V" V 1800 4300 59  0000 L BNN
+F 2 "" H 1900 4400 50  0001 C CNN
+F 3 "" H 1900 4400 50  0001 C CNN
+	1    1900 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:R-US_R0805 R27
+U 1 1 28F22905
+P 2600 6500
+F 0 "R27" H 2450 6559 59  0000 L BNN
+F 1 "4M7" H 2450 6370 59  0000 L BNN
+F 2 "ControlAmplifier:R0805" H 2600 6500 50  0001 C CNN
+F 3 "" H 2600 6500 50  0001 C CNN
+	1    2600 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:R-US_R0805 R29
+U 1 1 11A42ADC
+P 2500 7700
+F 0 "R29" H 2350 7759 59  0000 L BNN
+F 1 "51K" H 2350 7570 59  0000 L BNN
+F 2 "ControlAmplifier:R0805" H 2500 7700 50  0001 C CNN
+F 3 "" H 2500 7700 50  0001 C CNN
+	1    2500 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:TRIM_US-3223G R30
+U 1 1 0BFA3729
+P 1900 7700
+F 0 "R30" V 1700 7600 59  0000 L BNN
+F 1 "50K" V 1800 7600 59  0000 L BNN
+F 2 "ControlAmplifier:3223G" H 1900 7700 50  0001 C CNN
+F 3 "" H 1900 7700 50  0001 C CNN
+	1    1900 7700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:R-US_R0805 R31
+U 1 1 374EF0ED
+P 3300 8100
+F 0 "R31" H 3150 8159 59  0000 L BNN
+F 1 "22K" H 3150 7970 59  0000 L BNN
+F 2 "ControlAmplifier:R0805" H 3300 8100 50  0001 C CNN
+F 3 "" H 3300 8100 50  0001 C CNN
+	1    3300 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:R-US_R0805 R32
+U 1 1 11A69660
+P 3400 5900
+F 0 "R32" H 3250 5959 59  0000 L BNN
+F 1 "150K" H 3250 5770 59  0000 L BNN
+F 2 "ControlAmplifier:R0805" H 3400 5900 50  0001 C CNN
+F 3 "" H 3400 5900 50  0001 C CNN
+	1    3400 5900
+	-1   0    0    1   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:R-US_R0805 R33
+U 1 1 A6869623
+P 4300 5900
+F 0 "R33" H 4150 5959 59  0000 L BNN
+F 1 "150K" H 4150 5770 59  0000 L BNN
+F 2 "ControlAmplifier:R0805" H 4300 5900 50  0001 C CNN
+F 3 "" H 4300 5900 50  0001 C CNN
+	1    4300 5900
+	-1   0    0    1   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:GND #GND11
+U 1 1 DE30151E
+P 3900 6300
+F 0 "#GND11" H 3900 6300 50  0001 C CNN
+F 1 "GND" H 3800 6200 59  0000 L BNN
+F 2 "" H 3900 6300 50  0001 C CNN
+F 3 "" H 3900 6300 50  0001 C CNN
+	1    3900 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:GND #GND12
+U 1 1 E480151F
+P 1400 7800
+F 0 "#GND12" H 1400 7800 50  0001 C CNN
+F 1 "GND" H 1300 7700 59  0000 L BNN
+F 2 "" H 1400 7800 50  0001 C CNN
+F 3 "" H 1400 7800 50  0001 C CNN
+	1    1400 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:R-US_R0805 R39
+U 1 1 C63917EC
+P 2500 7300
+F 0 "R39" H 2350 7359 59  0000 L BNN
+F 1 "1M" H 2350 7170 59  0000 L BNN
+F 2 "ControlAmplifier:R0805" H 2500 7300 50  0001 C CNN
+F 3 "" H 2500 7300 50  0001 C CNN
+	1    2500 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:-15V #P-10
+U 1 1 67E68E53
+P 1200 7300
+F 0 "#P-10" H 1200 7300 50  0001 C CNN
+F 1 "-15V" V 1100 7200 59  0000 L BNN
+F 2 "" H 1200 7300 50  0001 C CNN
+F 3 "" H 1200 7300 50  0001 C CNN
+	1    1200 7300
+	0    1    1    0   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:SMD2 E3-LIMITRELEASE
+U 1 1 B4495128
+P 4100 8900
+F 0 "E3-LIMITRELEASE" H 4055 8973 59  0000 L BNN
+F 1 "SMD2" H 4055 8770 59  0000 L BNN
+F 2 "ControlAmplifier:SMD1,27-2,54" H 4100 8900 50  0001 C CNN
+F 3 "" H 4100 8900 50  0001 C CNN
+	1    4100 8900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:SMD2 E4-LIMITRELEASE
+U 1 1 52F0EAA5
+P 4500 8900
+F 0 "E4-LIMITRELEASE" H 4455 8973 59  0000 L BNN
+F 1 "SMD2" H 4455 8770 59  0000 L BNN
+F 2 "ControlAmplifier:SMD1,27-2,54" H 4500 8900 50  0001 C CNN
+F 3 "" H 4500 8900 50  0001 C CNN
+	1    4500 8900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:-15V #P-11
+U 1 1 BC3E7874
+P 2000 800
+F 0 "#P-11" H 2000 800 50  0001 C CNN
+F 1 "-15V" V 1900 700 59  0000 L BNN
+F 2 "" H 2000 800 50  0001 C CNN
+F 3 "" H 2000 800 50  0001 C CNN
+	1    2000 800 
+	-1   0    0    1   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:+15V #P+10
+U 1 1 886C3673
+P 2900 800
+F 0 "#P+10" H 2900 800 50  0001 C CNN
+F 1 "+15V" V 2800 600 59  0000 L BNN
+F 2 "" H 2900 800 50  0001 C CNN
+F 3 "" H 2900 800 50  0001 C CNN
+	1    2900 800 
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
