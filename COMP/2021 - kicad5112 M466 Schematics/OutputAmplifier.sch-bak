@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 1 9
+Sheet 2 9
 Title "M466 Output Amplifier"
 Date "2021-11-27"
 Rev ""
@@ -646,28 +646,6 @@ F 2 "OutputAmplifier:C2.5-5" H 7975 5075 50  0001 C CNN
 F 3 "" H 7975 5075 50  0001 C CNN
 	1    7975 5075
 	0    1    1    0   
-$EndComp
-$Comp
-L OutputAmplifier-eagle-import:SMD2 E1
-U 1 1 EF75A04C
-P 5175 3975
-F 0 "E1" H 5130 4048 59  0000 L BNN
-F 1 "SMD2" H 5130 3845 59  0000 L BNN
-F 2 "OutputAmplifier:SMD1,27-2,54" H 5175 3975 50  0001 C CNN
-F 3 "" H 5175 3975 50  0001 C CNN
-	1    5175 3975
-	1    0    0    -1  
-$EndComp
-$Comp
-L OutputAmplifier-eagle-import:SMD2 E2
-U 1 1 12AD0590
-P 5075 9875
-F 0 "E2" H 5030 9948 59  0000 L BNN
-F 1 "SMD2" H 5030 9745 59  0000 L BNN
-F 2 "OutputAmplifier:SMD1,27-2,54" H 5075 9875 50  0001 C CNN
-F 3 "" H 5075 9875 50  0001 C CNN
-	1    5075 9875
-	1    0    0    -1  
 $EndComp
 $Comp
 L OutputAmplifier-eagle-import:C2.5_5 C17
@@ -1319,61 +1297,6 @@ F 3 "" H 14175 10375 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L OutputAmplifier-eagle-import:SMD2 E3
-U 1 1 0146C692
-P 16075 2675
-F 0 "E3" H 16030 2748 59  0000 L BNN
-F 1 "SMD2" H 16030 2545 59  0000 L BNN
-F 2 "OutputAmplifier:SMD1,27-2,54" H 16075 2675 50  0001 C CNN
-F 3 "" H 16075 2675 50  0001 C CNN
-	1    16075 2675
-	-1   0    0    1   
-$EndComp
-$Comp
-L OutputAmplifier-eagle-import:SMD2 E4
-U 1 1 E410CEFF
-P 16075 4675
-F 0 "E4" H 16030 4748 59  0000 L BNN
-F 1 "SMD2" H 16030 4545 59  0000 L BNN
-F 2 "OutputAmplifier:SMD1,27-2,54" H 16075 4675 50  0001 C CNN
-F 3 "" H 16075 4675 50  0001 C CNN
-	1    16075 4675
-	-1   0    0    1   
-$EndComp
-$Comp
-L OutputAmplifier-eagle-import:SMD2 E5
-U 1 1 557D9ADD
-P 15975 7875
-F 0 "E5" H 15930 7948 59  0000 L BNN
-F 1 "SMD2" H 15930 7745 59  0000 L BNN
-F 2 "OutputAmplifier:SMD1,27-2,54" H 15975 7875 50  0001 C CNN
-F 3 "" H 15975 7875 50  0001 C CNN
-	1    15975 7875
-	-1   0    0    1   
-$EndComp
-$Comp
-L OutputAmplifier-eagle-import:SMD2 E6
-U 1 1 BB2A911A
-P 15975 10375
-F 0 "E6" H 15930 10448 59  0000 L BNN
-F 1 "SMD2" H 15930 10245 59  0000 L BNN
-F 2 "OutputAmplifier:SMD1,27-2,54" H 15975 10375 50  0001 C CNN
-F 3 "" H 15975 10375 50  0001 C CNN
-	1    15975 10375
-	-1   0    0    1   
-$EndComp
-$Comp
-L OutputAmplifier-eagle-import:SMD2 E7
-U 1 1 05F8F254
-P 15975 13275
-F 0 "E7" H 15930 13348 59  0000 L BNN
-F 1 "SMD2" H 15930 13145 59  0000 L BNN
-F 2 "OutputAmplifier:SMD1,27-2,54" H 15975 13275 50  0001 C CNN
-F 3 "" H 15975 13275 50  0001 C CNN
-	1    15975 13275
-	-1   0    0    1   
-$EndComp
-$Comp
 L OutputAmplifier-eagle-import:GND #SUPPLY6
 U 1 1 137BDED3
 P 14775 7975
@@ -1428,4 +1351,18 @@ F 3 "" H 7975 4475 50  0001 C CNN
 	1    7975 4475
 	1    0    0    -1  
 $EndComp
+Text HLabel 5275 3975 0    50   Input ~ 0
+E1
+Text HLabel 5175 9875 0    50   Input ~ 0
+E2
+Text HLabel 15875 13275 2    50   BiDi ~ 0
+E7
+Text HLabel 15875 10375 2    50   BiDi ~ 0
+E6
+Text HLabel 15875 7875 2    50   BiDi ~ 0
+E5
+Text HLabel 15975 4675 2    50   BiDi ~ 0
+E4
+Text HLabel 15975 2675 2    50   Input ~ 0
+E3
 $EndSCHEMATC
