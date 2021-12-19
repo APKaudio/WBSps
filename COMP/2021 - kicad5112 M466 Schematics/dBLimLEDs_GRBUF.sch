@@ -496,7 +496,7 @@ Text Notes 5100 6825 0    50   ~ 0
 Text Notes 5850 6825 2    50   ~ 0
 12dB\nYellow
 Text Notes 600  1025 0    50   ~ 0
-Single-Ended Audio Input\n(Output of DC Block)
+Control Voltage Input\n(Output of DC Block)
 Wire Wire Line
 	2400 1675 1450 1675
 Connection ~ 2400 1675
@@ -588,5 +588,5 @@ OutputGRVUMeter
 Text HLabel 1450 1675 0    50   Input ~ 0
 LimitMonitoringInput
 Text HLabel 1450 1075 0    50   Input ~ 0
-AudioInput
+CVInput
 $EndSCHEMATC
