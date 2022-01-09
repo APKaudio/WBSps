@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 6
+Sheet 1 9
 Title "M466 Control Amplifier"
 Date "2021-11-27"
 Rev ""

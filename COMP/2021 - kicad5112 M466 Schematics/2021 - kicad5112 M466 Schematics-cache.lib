@@ -418,108 +418,6 @@ X -15V 1 0 100 100 D 0 0 1 0 W
 ENDDRAW
 ENDDEF
 #
-# ControlAmplifier-eagle-import_1N4004
-#
-DEF ControlAmplifier-eagle-import_1N4004 D 0 40 Y Y 1 L N
-F0 "D" 100 19 59 H V L BNN
-F1 "ControlAmplifier-eagle-import_1N4004" 100 -91 59 H V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-T 0 -100 0 13 0 1 0 "SpiceOrder 1" Normal 0 C C
-T 0 100 0 13 0 1 0 "SpiceOrder 2" Normal 0 C C
-P 2 1 0 0 -50 -50 50 0 N
-P 2 1 0 0 -50 50 -50 -50 N
-P 2 1 0 0 50 0 -50 50 N
-P 2 1 0 0 50 0 50 -50 N
-P 2 1 0 0 50 50 50 0 N
-X A A -100 0 100 R 0 0 1 0 P
-X C C 100 0 100 L 0 0 1 0 P
-ENDDRAW
-ENDDEF
-#
-# ControlAmplifier-eagle-import_C-USC0805
-#
-DEF ControlAmplifier-eagle-import_C-USC0805 C 0 40 Y Y 1 L N
-F0 "C" 40 25 59 H V L BNN
-F1 "ControlAmplifier-eagle-import_C-USC0805" 40 -165 59 H V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-A 0 -199 159 900 1274 1 0 10 N 0 -40 -97 -72
-A 0 -198 159 519 900 1 0 10 N 98 -73 0 -39
-P 2 1 0 0 -100 0 100 0 N
-P 2 1 0 0 0 -40 0 -100 N
-X 1 1 0 100 100 D 0 0 1 0 P
-X 2 2 0 -200 100 U 0 0 1 0 P
-ENDDRAW
-ENDDEF
-#
-# ControlAmplifier-eagle-import_C2.5_5
-#
-DEF ControlAmplifier-eagle-import_C2.5_5 C 0 40 Y Y 1 L N
-F0 "C" 60 15 59 H V L BNN
-F1 "ControlAmplifier-eagle-import_C2.5_5" 60 -185 59 H V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -80 -80 80 -60 1 0 0 F
-S -80 -40 80 -20 1 0 0 F
-P 2 1 0 0 0 -100 0 -80 N
-P 2 1 0 0 0 0 0 -20 N
-X 1 1 0 100 100 D 0 0 1 0 P
-X 2 2 0 -200 100 U 0 0 1 0 P
-ENDDRAW
-ENDDEF
-#
-# ControlAmplifier-eagle-import_GND
-#
-DEF ControlAmplifier-eagle-import_GND #GND 0 40 Y Y 1 L P
-F0 "#GND" 0 0 50 H I C CNN
-F1 "ControlAmplifier-eagle-import_GND" -100 -100 59 H V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 1 0 0 -75 0 75 0 N
-X GND 1 0 100 100 D 0 0 1 0 W
-ENDDRAW
-ENDDEF
-#
-# ControlAmplifier-eagle-import_LM201D
-#
-DEF ControlAmplifier-eagle-import_LM201D IC 0 40 Y Y 1 L N
-F0 "IC" 100 225 59 H V L BNN
-F1 "ControlAmplifier-eagle-import_LM201D" 100 -200 59 H V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-T 900 50 -200 27 0 1 0 CMP Normal 0 L B
-T 900 50 125 27 0 1 0 ON Normal 0 L B
-T 900 125 100 27 0 1 0 ON/CMP Normal 0 L B
-T 900 -50 175 27 0 1 0 V+ Normal 0 L B
-T 900 -50 -225 27 0 1 0 V- Normal 0 L B
-P 2 1 0 0 -200 -200 200 0 N
-P 2 1 0 0 -200 200 -200 -200 N
-P 2 1 0 0 -200 200 200 0 N
-P 2 1 0 0 -175 -100 -125 -100 N
-P 2 1 0 0 -175 100 -125 100 N
-P 2 1 0 0 -150 125 -150 75 N
-P 2 1 0 0 -100 -153 -100 -200 N
-P 2 1 0 0 -100 200 -100 153 N
-P 2 1 0 0 0 -200 0 -103 N
-P 2 1 0 0 0 200 0 103 N
-P 2 1 0 0 106 52 200 100 N
-X ON/CMP 1 300 100 100 L 50 0 1 0 P
-X -IN 2 -300 -100 100 R 50 0 1 0 I
-X +IN 3 -300 100 100 R 50 0 1 0 I
-X V- 4 -100 -300 100 U 50 0 1 0 W
-X ON 5 0 300 100 D 50 0 1 0 P
-X OUT 6 300 0 100 L 50 0 1 0 O
-X V+ 7 -100 300 100 D 50 0 1 0 W
-X CMP 8 0 -300 100 U 50 0 1 0 P
-ENDDRAW
-ENDDEF
-#
 # ControlAmplifier-eagle-import_MAT-01H
 #
 DEF ControlAmplifier-eagle-import_MAT-01H IC 0 40 Y Y 2 L N
@@ -549,70 +447,68 @@ X C 6 -100 200 100 D 50 0 2 0 P
 ENDDRAW
 ENDDEF
 #
-# ControlAmplifier-eagle-import_R-US_R0805
+# Device_C_Polarized_US
 #
-DEF ControlAmplifier-eagle-import_R-US_R0805 R 0 40 Y Y 1 L N
-F0 "R" -150 59 59 H V L BNN
-F1 "ControlAmplifier-eagle-import_R-US_R0805" -150 -130 59 H V L BNN
+DEF Device_C_Polarized_US C 0 10 N N 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "Device_C_Polarized_US" 25 -100 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+$FPLIST
+ CP_*
+$ENDFPLIST
 DRAW
-P 2 1 0 0 -100 0 -85 40 N
-P 2 1 0 0 -85 40 -60 -40 N
-P 2 1 0 0 -60 -40 -35 40 N
-P 2 1 0 0 -35 40 -10 -40 N
-P 2 1 0 0 -10 -40 15 40 N
-P 2 1 0 0 15 40 40 -40 N
-P 2 1 0 0 40 -40 65 40 N
-P 2 1 0 0 65 40 90 -40 N
-P 2 1 0 0 90 -40 100 0 N
-X 1 1 -200 0 100 R 0 0 1 0 P
-X 2 2 200 0 100 L 0 0 1 0 P
+A 0 -150 128 1287 513 0 1 20 N -80 -50 80 -50
+P 2 0 1 20 -80 30 80 30 N
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 70 -50 110 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 130 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ControlAmplifier-eagle-import_SMD2
+# Device_R_Potentiometer_US
 #
-DEF ControlAmplifier-eagle-import_SMD2 PAD 0 40 Y Y 1 L N
-F0 "PAD" -45 73 59 H V L BNN
-F1 "ControlAmplifier-eagle-import_SMD2" -45 -130 59 H V L BNN
+DEF Device_R_Potentiometer_US RV 0 40 Y N 1 F N
+F0 "RV" -175 0 50 V V C CNN
+F1 "Device_R_Potentiometer_US" -100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
 DRAW
-P 2 1 0 0 -40 -40 40 40 N
-P 2 1 0 0 -40 40 40 -40 N
-X P 1 100 0 100 L 0 0 1 0 P
+P 2 0 1 0 0 -90 0 -100 N
+P 2 0 1 0 0 100 0 90 N
+P 2 0 1 0 100 0 60 0 N
+P 4 0 1 0 45 0 90 20 90 -20 45 0 F
+P 5 0 1 0 0 -30 40 -45 0 -60 -40 -75 0 -90 N
+P 5 0 1 0 0 30 40 15 0 0 -40 -15 0 -30 N
+P 5 0 1 0 0 90 40 75 0 60 -40 45 0 30 N
+X 1 1 0 150 50 D 50 50 1 1 P
+X 2 2 150 0 50 L 50 50 1 1 P
+X 3 3 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ControlAmplifier-eagle-import_TRIM_US-3223G
+# Device_R_US
 #
-DEF ControlAmplifier-eagle-import_TRIM_US-3223G R 0 40 Y Y 1 L N
-F0 "R" -200 -100 59 V V L BNN
-F1 "ControlAmplifier-eagle-import_TRIM_US-3223G" -100 -100 59 V V L BNN
-F2 "" 0 0 50 H I C CNN
+DEF Device_R_US R 0 0 N Y 1 F N
+F0 "R" 100 0 50 V V C CNN
+F1 "Device_R_US" -100 0 50 V V C CNN
+F2 "" 40 -10 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
 DRAW
-P 2 1 0 0 -40 -150 50 -100 N
-P 2 1 0 0 -40 -50 50 0 N
-P 2 1 0 0 -40 50 50 100 N
-P 2 1 0 0 -40 150 0 180 N
-P 2 1 0 0 0 -200 0 -180 N
-P 2 1 0 0 0 -180 -40 -150 N
-P 2 1 0 0 0 180 0 200 N
-P 2 1 0 0 50 -100 -40 -50 N
-P 2 1 0 0 50 0 -40 50 N
-P 2 1 0 0 50 0 100 50 N
-P 2 1 0 0 50 100 -40 150 N
-P 2 1 0 0 55 -135 80 -85 N
-P 2 1 0 0 80 -185 80 -85 N
-P 2 1 0 0 80 -85 105 -135 N
-P 2 1 0 0 100 -50 50 0 N
-P 2 1 0 0 100 50 100 -50 N
-P 2 1 0 0 105 -135 55 -135 N
-X A 1 0 -300 100 U 0 0 1 0 P
-X S 2 200 0 100 L 0 0 1 0 P
-X E 3 0 300 100 D 0 0 1 0 P
+P 2 0 1 0 0 -90 0 -100 N
+P 2 0 1 0 0 90 0 100 N
+P 5 0 1 0 0 -30 40 -45 0 -60 -40 -75 0 -90 N
+P 5 0 1 0 0 30 40 15 0 0 -40 -15 0 -30 N
+P 5 0 1 0 0 90 40 75 0 60 -40 45 0 30 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -846,20 +742,6 @@ X 2 2 200 0 100 L 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# OutputAmplifier-eagle-import_SMD2
-#
-DEF OutputAmplifier-eagle-import_SMD2 PAD 0 40 Y Y 1 L N
-F0 "PAD" -45 73 59 H V L BNN
-F1 "OutputAmplifier-eagle-import_SMD2" -45 -130 59 H V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 1 0 0 -40 -40 40 40 N
-P 2 1 0 0 -40 40 40 -40 N
-X P 1 100 0 100 L 0 0 1 0 P
-ENDDRAW
-ENDDEF
-#
 # power_Earth
 #
 DEF power_Earth #PWR 0 0 Y Y 1 F P
@@ -873,6 +755,22 @@ P 2 0 1 0 -5 -100 5 -100 N
 P 2 0 1 0 0 -50 0 0 N
 P 2 0 1 0 50 -50 -50 -50 N
 X Earth 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GNDREF
+#
+DEF power_GNDREF #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GNDREF" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -25 -75 25 -75 N
+P 2 0 1 0 -5 -100 5 -100 N
+P 2 0 1 0 0 -50 0 0 N
+P 2 0 1 0 50 -50 -50 -50 N
+X GNDREF 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #

@@ -1,0 +1,1503 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr User 18110 11000
+encoding utf-8
+Sheet 7 9
+Title "Limit Control from WBS466 Comp/Lim"
+Date "2021-05-30"
+Rev ""
+Comp "Wardbeck Systems Ltd"
+Comment1 "Converted to Kicad 5.1 by Arthur Bastos"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 5450 3125 0    10   ~ 0
+GND
+Wire Wire Line
+	6250 3525 6250 2925
+Connection ~ 6250 3525
+Text Label 6250 3725 0    10   ~ 0
+GND
+Wire Wire Line
+	9550 3425 9050 3425
+Connection ~ 9050 3425
+Text Label 9550 3525 0    10   ~ 0
+GND
+Wire Wire Line
+	7350 4925 7250 4925
+Text Label 7350 4925 0    10   ~ 0
+GND
+Wire Wire Line
+	10850 3225 10450 3225
+Wire Wire Line
+	10450 3225 10450 3025
+Connection ~ 10450 3225
+Text Label 10450 3525 0    10   ~ 0
+GND
+Text Label 4775 3050 1    10   ~ 0
+VCC
+Wire Wire Line
+	7650 2625 7650 3125
+Wire Wire Line
+	8150 3125 7950 3125
+Wire Wire Line
+	8150 2225 7950 2225
+Wire Wire Line
+	7650 5125 7650 5625
+Wire Wire Line
+	8150 5625 7950 5625
+Wire Wire Line
+	8150 4725 7950 4725
+Wire Wire Line
+	6250 2625 6250 2225
+Wire Wire Line
+	7150 2225 7350 2225
+Wire Wire Line
+	7150 3325 7150 2225
+Connection ~ 7150 2225
+Wire Wire Line
+	7950 2325 8350 2325
+Wire Wire Line
+	8350 2325 8350 3525
+Wire Wire Line
+	8350 3525 8350 3925
+Wire Wire Line
+	8550 2325 8350 2325
+Connection ~ 8350 2325
+Connection ~ 8350 3525
+Wire Wire Line
+	6950 3925 6950 4725
+Wire Wire Line
+	6950 4725 7350 4725
+Wire Wire Line
+	6950 4725 6950 6025
+Connection ~ 6950 4725
+Wire Wire Line
+	7950 4825 8450 4825
+Wire Wire Line
+	8450 4825 8450 6025
+Wire Wire Line
+	8450 4825 8650 4825
+Connection ~ 8450 4825
+Wire Wire Line
+	9450 4825 9050 4825
+Wire Wire Line
+	9050 4825 8950 4825
+Connection ~ 9050 4825
+Wire Wire Line
+	9450 2325 9050 2325
+Wire Wire Line
+	9050 2325 8850 2325
+Connection ~ 9050 2325
+Wire Wire Line
+	9650 4825 9850 4825
+Wire Wire Line
+	9850 4825 9850 2325
+Connection ~ 9850 2325
+Wire Wire Line
+	10850 2325 10850 2525
+Wire Wire Line
+	10450 2725 10450 2525
+Wire Wire Line
+	10450 2525 10850 2525
+Connection ~ 10850 2525
+Wire Wire Line
+	4775 3950 4775 3850
+Wire Wire Line
+	4775 3850 4075 3850
+Connection ~ 4775 3850
+Wire Wire Line
+	4775 4250 4775 4550
+Wire Wire Line
+	4775 4550 3975 4550
+Wire Wire Line
+	3975 4550 3975 4250
+$Comp
+L power:GNDREF #GND21
+U 1 1 B6C57476
+P 5450 3225
+F 0 "#GND21" H 5450 3225 50  0001 C CNN
+F 1 "GNDREF" H 5550 3175 59  0001 L BNN
+F 2 "" H 5450 3225 50  0001 C CNN
+F 3 "" H 5450 3225 50  0001 C CNN
+	1    5450 3225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R139
+U 1 1 780DB820
+P 5450 2825
+F 0 "R139" H 5150 2775 59  0000 L BNN
+F 1 "47K" H 5200 2875 59  0000 L BNN
+F 2 "M466-compressor-limiter:R0805" H 5450 2825 50  0001 C CNN
+F 3 "" H 5450 2825 50  0001 C CNN
+	1    5450 2825
+	-1   0    0    1   
+$EndComp
+$Comp
+L 2021_-_kicad5112_M466_Schematics-eagle-import:C2.5_5 C32
+U 1 1 E5A5ABAE
+P 6250 2725
+F 0 "C32" H 6310 2740 59  0000 L BNN
+F 1 "100p" H 6310 2540 59  0000 L BNN
+F 2 "M466-compressor-limiter:C2.5-5" H 6250 2725 50  0001 C CNN
+F 3 "" H 6250 2725 50  0001 C CNN
+	1    6250 2725
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2021_-_kicad5112_M466_Schematics-eagle-import:TRIM_US-3223G R101
+U 1 1 D0E6F561
+P 7150 3525
+F 0 "R101" V 6950 3425 59  0000 L BNN
+F 1 "20K" V 7050 3425 59  0000 L BNN
+F 2 "M466-compressor-limiter:3223G" H 7150 3525 50  0001 C CNN
+F 3 "" H 7150 3525 50  0001 C CNN
+	1    7150 3525
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R99
+U 1 1 882BC45D
+P 6550 2225
+F 0 "R99" V 6475 2100 59  0000 L BNN
+F 1 "100K" V 6675 2100 59  0000 L BNN
+F 2 "M466-compressor-limiter:R0805" H 6550 2225 50  0001 C CNN
+F 3 "" H 6550 2225 50  0001 C CNN
+	1    6550 2225
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R100
+U 1 1 95F8B617
+P 6550 3525
+F 0 "R100" V 6400 3375 59  0000 L BNN
+F 1 "4K7" V 6500 3375 59  0000 L BNN
+F 2 "M466-compressor-limiter:R0805" H 6550 3525 50  0001 C CNN
+F 3 "" H 6550 3525 50  0001 C CNN
+	1    6550 3525
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R103
+U 1 1 BEC33ABC
+P 7950 3525
+F 0 "R103" V 7800 3400 59  0000 L BNN
+F 1 "100K" V 7900 3400 59  0000 L BNN
+F 2 "M466-compressor-limiter:R0805" H 7950 3525 50  0001 C CNN
+F 3 "" H 7950 3525 50  0001 C CNN
+	1    7950 3525
+	0    1    1    0   
+$EndComp
+$Comp
+L 2021_-_kicad5112_M466_Schematics-eagle-import:LM201D Z7
+U 1 1 1433A2BB
+P 7650 2325
+F 0 "Z7" H 7550 2325 30  0000 L BNN
+F 1 "LM201D" H 7475 2250 30  0000 L BNN
+F 2 "M466-compressor-limiter:SO08" H 7650 2325 50  0001 C CNN
+F 3 "" H 7650 2325 50  0001 C CNN
+	1    7650 2325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R102
+U 1 1 E2A6C4D2
+P 8150 2925
+F 0 "R102" H 8200 2975 30  0000 L BNN
+F 1 "620" H 8225 2875 30  0000 L BNN
+F 2 "M466-compressor-limiter:R0805" H 8150 2925 50  0001 C CNN
+F 3 "" H 8150 2925 50  0001 C CNN
+	1    8150 2925
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2021_-_kicad5112_M466_Schematics-eagle-import:C2.5_5 C33
+U 1 1 60A05B91
+P 7750 3125
+F 0 "C33" V 7875 2950 30  0000 L BNN
+F 1 "3p9" V 7825 2925 30  0000 L BNN
+F 2 "M466-compressor-limiter:C2.5-5" H 7750 3125 50  0001 C CNN
+F 3 "" H 7750 3125 50  0001 C CNN
+	1    7750 3125
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 2021_-_kicad5112_M466_Schematics-eagle-import:LM201D Z8
+U 1 1 A650351A
+P 7650 4825
+F 0 "Z8" H 7575 4850 30  0000 L BNN
+F 1 "LM201D" H 7500 4800 30  0000 L BNN
+F 2 "M466-compressor-limiter:SO08" H 7650 4825 50  0001 C CNN
+F 3 "" H 7650 4825 50  0001 C CNN
+	1    7650 4825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R105
+U 1 1 D6C65006
+P 8150 5425
+F 0 "R105" H 8200 5525 59  0000 L BNN
+F 1 "620" H 8225 5425 59  0000 L BNN
+F 2 "M466-compressor-limiter:R0805" H 8150 5425 50  0001 C CNN
+F 3 "" H 8150 5425 50  0001 C CNN
+	1    8150 5425
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2021_-_kicad5112_M466_Schematics-eagle-import:C2.5_5 C34
+U 1 1 072C59C0
+P 7750 5625
+F 0 "C34" V 8000 5550 59  0000 L BNN
+F 1 "8p2" V 7925 5525 59  0000 L BNN
+F 2 "M466-compressor-limiter:C2.5-5" H 7750 5625 50  0001 C CNN
+F 3 "" H 7750 5625 50  0001 C CNN
+	1    7750 5625
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GNDREF #GND24
+U 1 1 E73C58C9
+P 6250 3825
+F 0 "#GND24" H 6250 3825 50  0001 C CNN
+F 1 "GNDREF" H 6250 3600 59  0000 L BNN
+F 2 "" H 6250 3825 50  0001 C CNN
+F 3 "" H 6250 3825 50  0001 C CNN
+	1    6250 3825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R104
+U 1 1 952D66DD
+P 7950 3925
+F 0 "R104" V 8075 3850 59  0000 L BNN
+F 1 "15K" V 8175 3875 59  0000 L BNN
+F 2 "M466-compressor-limiter:R0805" H 7950 3925 50  0001 C CNN
+F 3 "" H 7950 3925 50  0001 C CNN
+	1    7950 3925
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R106
+U 1 1 F478CA47
+P 7850 6025
+F 0 "R106" V 7975 5875 59  0000 L BNN
+F 1 "15K" V 8075 5900 59  0000 L BNN
+F 2 "M466-compressor-limiter:R0805" H 7850 6025 50  0001 C CNN
+F 3 "" H 7850 6025 50  0001 C CNN
+	1    7850 6025
+	0    1    1    0   
+$EndComp
+$Comp
+L 2021_-_kicad5112_M466_Schematics-eagle-import:C-USC0805 C36
+U 1 1 E33CDC2D
+P 8850 4825
+F 0 "C36" V 8700 4675 59  0000 L BNN
+F 1 "10/25" V 9050 4650 59  0000 L BNN
+F 2 "M466-compressor-limiter:C0805" H 8850 4825 50  0001 C CNN
+F 3 "" H 8850 4825 50  0001 C CNN
+	1    8850 4825
+	0    1    1    0   
+$EndComp
+$Comp
+L 2021_-_kicad5112_M466_Schematics-eagle-import:C-USC0805 C35
+U 1 1 AFC7201F
+P 8750 2325
+F 0 "C35" V 8475 2100 59  0000 L BNN
+F 1 "10/25" V 8575 2100 59  0000 L BNN
+F 2 "M466-compressor-limiter:C0805" H 8750 2325 50  0001 C CNN
+F 3 "" H 8750 2325 50  0001 C CNN
+	1    8750 2325
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R107
+U 1 1 2EB580AC
+P 9050 2925
+F 0 "R107" H 9125 3000 59  0000 L BNN
+F 1 "4K7" H 9125 2875 59  0000 L BNN
+F 2 "M466-compressor-limiter:R0805" H 9050 2925 50  0001 C CNN
+F 3 "" H 9050 2925 50  0001 C CNN
+	1    9050 2925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R108
+U 1 1 0B4274A5
+P 9050 3925
+F 0 "R108" H 8750 4025 59  0000 L BNN
+F 1 "4K7" H 8750 3925 59  0000 L BNN
+F 2 "M466-compressor-limiter:R0805" H 9050 3925 50  0001 C CNN
+F 3 "" H 9050 3925 50  0001 C CNN
+	1    9050 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #GND25
+U 1 1 F8CFB2B4
+P 9550 3625
+F 0 "#GND25" H 9550 3625 50  0001 C CNN
+F 1 "GNDREF" H 9450 3525 59  0001 L BNN
+F 2 "" H 9550 3625 50  0001 C CNN
+F 3 "" H 9550 3625 50  0001 C CNN
+	1    9550 3625
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2021_-_kicad5112_M466_Schematics-eagle-import:1N4004 CR11
+U 1 1 3633DD69
+P 9550 4825
+F 0 "CR11" H 9625 4750 59  0000 L BNN
+F 1 "1N4004" H 9500 4900 59  0000 L BNN
+F 2 "M466-compressor-limiter:DO41-10" H 9550 4825 50  0001 C CNN
+F 3 "" H 9550 4825 50  0001 C CNN
+	1    9550 4825
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R109
+U 1 1 3912D7B8
+P 10350 2325
+F 0 "R109" V 10175 2175 59  0000 L BNN
+F 1 "1K" V 10275 2200 59  0000 L BNN
+F 2 "M466-compressor-limiter:R0805" H 10350 2325 50  0001 C CNN
+F 3 "" H 10350 2325 50  0001 C CNN
+	1    10350 2325
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R111
+U 1 1 FCD08CB2
+P 10850 2825
+F 0 "R111" H 10925 2900 59  0000 L BNN
+F 1 "10M" H 10975 2825 59  0000 L BNN
+F 2 "M466-compressor-limiter:R0805" H 10850 2825 50  0001 C CNN
+F 3 "" H 10850 2825 50  0001 C CNN
+	1    10850 2825
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #GND27
+U 1 1 5F8B303C
+P 10450 3625
+F 0 "#GND27" H 10450 3625 50  0001 C CNN
+F 1 "GNDREF" H 10350 3525 59  0001 L BNN
+F 2 "" H 10450 3625 50  0001 C CNN
+F 3 "" H 10450 3625 50  0001 C CNN
+	1    10450 3625
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2021_-_kicad5112_M466_Schematics-eagle-import:LED CR12FLV117
+U 1 1 E117CAA2
+P 4775 4050
+F 0 "CR12FLV117" H 4825 4075 59  0000 L BNN
+F 1 "RED" H 4825 3950 59  0000 L BNN
+F 2 "M466-compressor-limiter:SMARTLED-TTW" H 4775 4050 50  0001 C CNN
+F 3 "" H 4775 4050 50  0001 C CNN
+	1    4775 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R112
+U 1 1 F0517718
+P 4775 3350
+F 0 "R112" H 4500 3300 59  0000 L BNN
+F 1 "4K7" H 4550 3375 59  0000 L BNN
+F 2 "M466-compressor-limiter:R0805" H 4775 3350 50  0001 C CNN
+F 3 "" H 4775 3350 50  0001 C CNN
+	1    4775 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L 2021_-_kicad5112_M466_Schematics-eagle-import:VCC #VCC27
+U 1 1 1DEB8880
+P 4775 2950
+F 0 "#VCC27" H 4775 2950 50  0001 C CNN
+F 1 "VCC" H 4775 2950 50  0001 C CNN
+F 2 "" H 4775 2950 50  0001 C CNN
+F 3 "" H 4775 2950 50  0001 C CNN
+	1    4775 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2021_-_kicad5112_M466_Schematics-eagle-import:VCC #VCC39
+U 1 1 924264E3
+P 7550 1925
+F 0 "#VCC39" H 7550 1925 50  0001 C CNN
+F 1 "VCC" H 7550 1925 50  0001 C CNN
+F 2 "" H 7550 1925 50  0001 C CNN
+F 3 "" H 7550 1925 50  0001 C CNN
+	1    7550 1925
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2021_-_kicad5112_M466_Schematics-eagle-import:VCC #VCC40
+U 1 1 6DF37D63
+P 7550 2725
+F 0 "#VCC40" H 7550 2725 50  0001 C CNN
+F 1 "VCC" H 7550 2725 50  0001 C CNN
+F 2 "" H 7550 2725 50  0001 C CNN
+F 3 "" H 7550 2725 50  0001 C CNN
+	1    7550 2725
+	-1   0    0    1   
+$EndComp
+$Comp
+L 2021_-_kicad5112_M466_Schematics-eagle-import:VCC #VCC41
+U 1 1 654403E6
+P 7550 4425
+F 0 "#VCC41" H 7550 4425 50  0001 C CNN
+F 1 "VCC" H 7550 4425 50  0001 C CNN
+F 2 "" H 7550 4425 50  0001 C CNN
+F 3 "" H 7550 4425 50  0001 C CNN
+	1    7550 4425
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2021_-_kicad5112_M466_Schematics-eagle-import:VCC #VCC42
+U 1 1 C79DB0FF
+P 7550 5225
+F 0 "#VCC42" H 7550 5225 50  0001 C CNN
+F 1 "VCC" H 7550 5225 50  0001 C CNN
+F 2 "" H 7550 5225 50  0001 C CNN
+F 3 "" H 7550 5225 50  0001 C CNN
+	1    7550 5225
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9650 2325 9850 2325
+$Comp
+L Device:R_Potentiometer_US SW5
+U 1 1 614D305E
+P 2800 4675
+F 0 "SW5" H 2733 4721 50  0000 R CNN
+F 1 "8.54k" H 2733 4630 50  0000 R CNN
+F 2 "" H 2800 4675 50  0001 C CNN
+F 3 "~" H 2800 4675 50  0001 C CNN
+	1    2800 4675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 4525 2800 4175
+$Comp
+L Device:R_US R96
+U 1 1 6164937D
+P 2800 5450
+F 0 "R96" H 2868 5496 50  0000 L CNN
+F 1 "1k" H 2868 5405 50  0000 L CNN
+F 2 "" V 2840 5440 50  0001 C CNN
+F 3 "~" H 2800 5450 50  0001 C CNN
+	1    2800 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R97
+U 1 1 6164A0AC
+P 3200 5450
+F 0 "R97" H 3268 5496 50  0000 L CNN
+F 1 "27k" H 3268 5405 50  0000 L CNN
+F 2 "" V 3240 5440 50  0001 C CNN
+F 3 "~" H 3200 5450 50  0001 C CNN
+	1    3200 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 5600 2800 5825
+Wire Wire Line
+	2800 5825 3000 5825
+Wire Wire Line
+	3200 5825 3200 5600
+Wire Wire Line
+	2800 4825 2800 5100
+Wire Wire Line
+	3200 5300 3200 5100
+Wire Wire Line
+	3200 5100 2800 5100
+Connection ~ 2800 5100
+Wire Wire Line
+	2800 5100 2800 5300
+$Comp
+L power:GNDREF #PWR?
+U 1 1 617BDFA6
+P 3000 5825
+F 0 "#PWR?" H 3000 5575 50  0001 C CNN
+F 1 "GNDREF" H 3005 5652 50  0000 C CNN
+F 2 "" H 3000 5825 50  0001 C CNN
+F 3 "" H 3000 5825 50  0001 C CNN
+	1    3000 5825
+	1    0    0    -1  
+$EndComp
+Connection ~ 3000 5825
+Wire Wire Line
+	3000 5825 3200 5825
+Wire Notes Line
+	3325 3525 3325 4500
+Text Notes 3825 3775 0    50   ~ 0
+Limiter Switch
+Wire Notes Line
+	3325 4500 4525 4500
+Wire Notes Line
+	4525 4500 4525 3525
+Wire Notes Line
+	4525 3525 3325 3525
+Text Notes 3850 4350 1    50   ~ 0
+ON
+Text Notes 3650 4325 1    50   ~ 0
+OFF
+Text Notes 4275 4300 1    50   ~ 0
+ON
+Text Notes 4050 4350 1    50   ~ 0
+OFF
+Wire Notes Line
+	2475 4425 3000 4425
+Wire Notes Line
+	3000 4900 2475 4900
+Wire Notes Line
+	2475 4900 2475 4425
+Wire Notes Line
+	3000 4425 3000 4900
+Text Notes 2425 5000 1    50   ~ 0
+Limiter Threshold
+Wire Notes Line
+	7450 3850 6850 3850
+Text Notes 6875 3450 0    50   ~ 0
+Limit\nThld\nCal
+Wire Notes Line
+	7450 3175 6850 3175
+Wire Notes Line
+	7450 3175 7450 3850
+Wire Notes Line
+	6850 3175 6850 3850
+Wire Wire Line
+	4775 4550 4775 4725
+Connection ~ 4775 4550
+Wire Wire Line
+	5450 2425 7350 2425
+Wire Wire Line
+	3775 4250 3775 4675
+Connection ~ 5450 2425
+Wire Wire Line
+	3675 2425 5450 2425
+Wire Wire Line
+	3675 2425 3675 3850
+Connection ~ 10850 2325
+Text Label 15375 4825 0    10   ~ 0
+GND
+Wire Wire Line
+	12400 4425 12400 4725
+Wire Wire Line
+	12400 4725 12400 4825
+Wire Wire Line
+	12800 4625 12800 4725
+Wire Wire Line
+	12800 4725 12400 4725
+Connection ~ 12400 4725
+Text Label 12400 4425 0    10   ~ 0
+GND
+Wire Wire Line
+	12100 6325 11900 6325
+Wire Wire Line
+	12400 6125 11900 6125
+Wire Wire Line
+	11900 6125 11900 6325
+Text Label 12100 6325 0    10   ~ 0
+GND
+Wire Wire Line
+	14600 3925 14500 3925
+Wire Wire Line
+	14500 3925 14300 3925
+Wire Wire Line
+	14500 4225 14500 3925
+Connection ~ 14500 3925
+Text Label 12400 3125 0    10   ~ 0
+-16V
+Text Label 12800 5925 0    10   ~ 0
+-16V
+Wire Wire Line
+	13800 5525 13800 5425
+Text Label 13800 5525 0    10   ~ 0
++15V
+Wire Wire Line
+	14300 2325 14500 2325
+Wire Wire Line
+	14500 2925 14300 2925
+Wire Wire Line
+	14000 2925 14000 2725
+Wire Wire Line
+	13700 2325 12000 2325
+Wire Wire Line
+	13600 5725 12000 5725
+Wire Wire Line
+	12000 5725 12000 5125
+Wire Wire Line
+	12000 5125 12000 2325
+Connection ~ 12000 2325
+Connection ~ 12000 5125
+Wire Wire Line
+	14300 2425 15000 2425
+Wire Wire Line
+	15000 2425 15000 3425
+Wire Wire Line
+	15000 3425 14600 3425
+Wire Wire Line
+	15000 3425 15000 3625
+Wire Wire Line
+	15000 3625 14200 3625
+Wire Wire Line
+	15000 3625 15000 3925
+Wire Wire Line
+	15000 3925 14800 3925
+Connection ~ 15000 3625
+Connection ~ 15000 3425
+Wire Wire Line
+	13900 3625 13500 3625
+Wire Wire Line
+	13500 2525 13700 2525
+Wire Wire Line
+	13500 4525 13500 4125
+Connection ~ 13500 3625
+Connection ~ 13500 4125
+Wire Wire Line
+	12800 4125 12600 4125
+Wire Wire Line
+	12800 4325 12800 4125
+Connection ~ 12800 4125
+Wire Wire Line
+	13900 6125 13900 6325
+Wire Wire Line
+	14200 6325 14400 6325
+Wire Wire Line
+	14400 5725 14200 5725
+Wire Wire Line
+	15000 5125 15000 4525
+Wire Wire Line
+	13300 5925 13300 6325
+Wire Wire Line
+	13600 5925 13300 5925
+Wire Wire Line
+	13300 6325 13300 6725
+Connection ~ 13300 6325
+Connection ~ 13300 5925
+Wire Wire Line
+	14200 5825 14600 5825
+Wire Wire Line
+	14600 5825 14600 6725
+Wire Wire Line
+	14600 6725 14350 6725
+$Comp
+L 2021_-_kicad5112_M466_Schematics-eagle-import:LM201D IC?
+U 1 1 621EBE8E
+P 14000 2425
+AR Path="/60CA7A69/621EBE8E" Ref="IC?"  Part="1" 
+AR Path="/621EBE8E" Ref="Z5"  Part="1" 
+AR Path="/62CD61A4/621EBE8E" Ref="Z5"  Part="1" 
+F 0 "Z5" H 13950 2425 30  0000 L BNN
+F 1 "LM201D" H 13825 2350 30  0000 L BNN
+F 2 "M466 - Control amp:SO08" H 14000 2425 50  0001 C CNN
+F 3 "" H 14000 2425 50  0001 C CNN
+	1    14000 2425
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2021_-_kicad5112_M466_Schematics-eagle-import:LM201D IC?
+U 1 1 621EBE94
+P 13900 5825
+AR Path="/60CA7A69/621EBE94" Ref="IC?"  Part="1" 
+AR Path="/621EBE94" Ref="Z6"  Part="1" 
+AR Path="/62CD61A4/621EBE94" Ref="Z6"  Part="1" 
+F 0 "Z6" H 13775 5825 30  0000 L BNN
+F 1 "LM201D" H 13725 5750 30  0000 L BNN
+F 2 "M466 - Control amp:SO08" H 13900 5825 50  0001 C CNN
+F 3 "" H 13900 5825 50  0001 C CNN
+	1    13900 5825
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2021_-_kicad5112_M466_Schematics-eagle-import:1N4004 D?
+U 1 1 621EBECA
+P 14500 3425
+AR Path="/60CA7A69/621EBECA" Ref="D?"  Part="1" 
+AR Path="/621EBECA" Ref="CR6"  Part="1" 
+AR Path="/62CD61A4/621EBECA" Ref="CR6"  Part="1" 
+F 0 "CR6" H 14250 3350 59  0000 L BNN
+F 1 "1N4148" H 14250 3500 59  0000 L BNN
+F 2 "M466 - Control amp:DO41-10" H 14500 3425 50  0001 C CNN
+F 3 "" H 14500 3425 50  0001 C CNN
+	1    14500 3425
+	-1   0    0    1   
+$EndComp
+$Comp
+L 2021_-_kicad5112_M466_Schematics-eagle-import:1N4004 D?
+U 1 1 621EBED0
+P 14200 3925
+AR Path="/60CA7A69/621EBED0" Ref="D?"  Part="1" 
+AR Path="/621EBED0" Ref="CR7"  Part="1" 
+AR Path="/62CD61A4/621EBED0" Ref="CR7"  Part="1" 
+F 0 "CR7" H 14250 3950 59  0000 L BNN
+F 1 "1N4148" H 14075 3800 59  0000 L BNN
+F 2 "M466 - Control amp:DO41-10" H 14200 3925 50  0001 C CNN
+F 3 "" H 14200 3925 50  0001 C CNN
+	1    14200 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2021_-_kicad5112_M466_Schematics-eagle-import:1N4004 D?
+U 1 1 621EBED6
+P 14700 3925
+AR Path="/60CA7A69/621EBED6" Ref="D?"  Part="1" 
+AR Path="/621EBED6" Ref="CR8"  Part="1" 
+AR Path="/62CD61A4/621EBED6" Ref="CR8"  Part="1" 
+F 0 "CR8" H 14750 3950 59  0000 L BNN
+F 1 "1N4004" H 14650 3800 59  0000 L BNN
+F 2 "M466 - Control amp:DO41-10" H 14700 3925 50  0001 C CNN
+F 3 "" H 14700 3925 50  0001 C CNN
+	1    14700 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 621EBF42
+P 15375 3900
+AR Path="/60CA7A69/621EBF42" Ref="R?"  Part="1" 
+AR Path="/621EBF42" Ref="R18"  Part="1" 
+AR Path="/62CD61A4/621EBF42" Ref="R18"  Part="1" 
+F 0 "R18" H 15425 3975 59  0000 L BNN
+F 1 "4k7" H 15425 3850 59  0000 L BNN
+F 2 "M466 - Control amp:R0805" H 15375 3900 50  0001 C CNN
+F 3 "" H 15375 3900 50  0001 C CNN
+	1    15375 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 621EBF84
+P 15375 4525
+AR Path="/60CA7A69/621EBF84" Ref="R?"  Part="1" 
+AR Path="/621EBF84" Ref="R34"  Part="1" 
+AR Path="/62CD61A4/621EBF84" Ref="R34"  Part="1" 
+F 0 "R34" H 15450 4550 59  0000 L BNN
+F 1 "620" H 15450 4475 59  0000 L BNN
+F 2 "M466 - Control amp:R0805" H 15375 4525 50  0001 C CNN
+F 3 "" H 15375 4525 50  0001 C CNN
+	1    15375 4525
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2021_-_kicad5112_M466_Schematics-eagle-import:GND #GND?
+U 1 1 621EBFC6
+P 15375 4925
+AR Path="/60CA7A69/621EBFC6" Ref="#GND?"  Part="1" 
+AR Path="/621EBFC6" Ref="#GND?"  Part="1" 
+AR Path="/62CD61A4/621EBFC6" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 15375 4925 50  0001 C CNN
+F 1 "GND" H 15275 4825 59  0000 L BNN
+F 2 "" H 15375 4925 50  0001 C CNN
+F 3 "" H 15375 4925 50  0001 C CNN
+	1    15375 4925
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:+15V #P+?
+U 1 1 621EBFE4
+P 13900 2025
+AR Path="/60CA7A69/621EBFE4" Ref="#P+?"  Part="1" 
+AR Path="/621EBFE4" Ref="#P+?"  Part="1" 
+AR Path="/62CD61A4/621EBFE4" Ref="#P+?"  Part="1" 
+F 0 "#P+?" H 13900 2025 50  0001 C CNN
+F 1 "+15V" V 13800 1825 59  0000 L BNN
+F 2 "" H 13900 2025 50  0001 C CNN
+F 3 "" H 13900 2025 50  0001 C CNN
+	1    13900 2025
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:+15V #P+?
+U 1 1 621EBFEA
+P 13800 5325
+AR Path="/60CA7A69/621EBFEA" Ref="#P+?"  Part="1" 
+AR Path="/621EBFEA" Ref="#P+?"  Part="1" 
+AR Path="/62CD61A4/621EBFEA" Ref="#P+?"  Part="1" 
+F 0 "#P+?" H 13800 5325 50  0001 C CNN
+F 1 "+15V" V 13700 5125 59  0000 L BNN
+F 2 "" H 13800 5325 50  0001 C CNN
+F 3 "" H 13800 5325 50  0001 C CNN
+	1    13800 5325
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:-15V #P-?
+U 1 1 621EC020
+P 13800 6225
+AR Path="/60CA7A69/621EC020" Ref="#P-?"  Part="1" 
+AR Path="/621EC020" Ref="#P-?"  Part="1" 
+AR Path="/62CD61A4/621EC020" Ref="#P-?"  Part="1" 
+F 0 "#P-?" H 13800 6225 50  0001 C CNN
+F 1 "-15V" V 13700 6125 59  0000 L BNN
+F 2 "" H 13800 6225 50  0001 C CNN
+F 3 "" H 13800 6225 50  0001 C CNN
+	1    13800 6225
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:-15V #P-?
+U 1 1 621EC026
+P 13900 2825
+AR Path="/60CA7A69/621EC026" Ref="#P-?"  Part="1" 
+AR Path="/621EC026" Ref="#P-?"  Part="1" 
+AR Path="/62CD61A4/621EC026" Ref="#P-?"  Part="1" 
+F 0 "#P-?" H 13900 2825 50  0001 C CNN
+F 1 "-15V" V 13800 2725 59  0000 L BNN
+F 2 "" H 13900 2825 50  0001 C CNN
+F 3 "" H 13900 2825 50  0001 C CNN
+	1    13900 2825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 621EC05C
+P 14500 2725
+AR Path="/60CA7A69/621EC05C" Ref="R?"  Part="1" 
+AR Path="/621EC05C" Ref="RR21"  Part="1" 
+AR Path="/62CD61A4/621EC05C" Ref="R21"  Part="1" 
+F 0 "R21" H 14550 2825 59  0000 L BNN
+F 1 "620" H 14575 2725 59  0000 L BNN
+F 2 "M466 - Control amp:R0805" H 14500 2725 50  0001 C CNN
+F 3 "" H 14500 2725 50  0001 C CNN
+	1    14500 2725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 621EC062
+P 14400 6125
+AR Path="/60CA7A69/621EC062" Ref="R?"  Part="1" 
+AR Path="/621EC062" Ref="R28"  Part="1" 
+AR Path="/62CD61A4/621EC062" Ref="R28"  Part="1" 
+F 0 "R28" H 14450 6175 30  0000 L BNN
+F 1 "620" H 14450 6100 30  0000 L BNN
+F 2 "M466 - Control amp:R0805" H 14400 6125 50  0001 C CNN
+F 3 "" H 14400 6125 50  0001 C CNN
+	1    14400 6125
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2021_-_kicad5112_M466_Schematics-eagle-import:C2.5_5 C?
+U 1 1 621EC068
+P 14200 2925
+AR Path="/60CA7A69/621EC068" Ref="C?"  Part="1" 
+AR Path="/621EC068" Ref="C8"  Part="1" 
+AR Path="/62CD61A4/621EC068" Ref="C8"  Part="1" 
+F 0 "C8" V 14275 2925 59  0000 L BNN
+F 1 "3p9" V 14375 2925 59  0000 L BNN
+F 2 "M466 - Control amp:C2.5-5" H 14200 2925 50  0001 C CNN
+F 3 "" H 14200 2925 50  0001 C CNN
+	1    14200 2925
+	0    1    1    0   
+$EndComp
+$Comp
+L 2021_-_kicad5112_M466_Schematics-eagle-import:C2.5_5 C?
+U 1 1 621EC06E
+P 14100 6325
+AR Path="/60CA7A69/621EC06E" Ref="C?"  Part="1" 
+AR Path="/621EC06E" Ref="C11"  Part="1" 
+AR Path="/62CD61A4/621EC06E" Ref="C11"  Part="1" 
+F 0 "C11" V 14200 6325 59  0000 L BNN
+F 1 "15p" V 14300 6225 59  0000 L BNN
+F 2 "M466 - Control amp:C2.5-5" H 14100 6325 50  0001 C CNN
+F 3 "" H 14100 6325 50  0001 C CNN
+	1    14100 6325
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 621EC07A
+P 13700 3925
+AR Path="/60CA7A69/621EC07A" Ref="R?"  Part="1" 
+AR Path="/621EC07A" Ref="R23"  Part="1" 
+AR Path="/62CD61A4/621EC07A" Ref="R23"  Part="1" 
+F 0 "R23" V 13625 3850 59  0000 L BNN
+F 1 "100K" V 13825 3850 59  0000 L BNN
+F 2 "M466 - Control amp:R0805" H 13700 3925 50  0001 C CNN
+F 3 "" H 13700 3925 50  0001 C CNN
+	1    13700 3925
+	0    1    1    0   
+$EndComp
+$Comp
+L 2021_-_kicad5112_M466_Schematics-eagle-import:TRIM_US-3223G R?
+U 1 1 621EC086
+P 12400 4125
+AR Path="/60CA7A69/621EC086" Ref="R?"  Part="1" 
+AR Path="/621EC086" Ref="R35"  Part="1" 
+AR Path="/62CD61A4/621EC086" Ref="R25"  Part="1" 
+F 0 "R25" H 12150 4150 59  0000 L BNN
+F 1 "5K" H 12200 4050 59  0000 L BNN
+F 2 "M466 - Control amp:3223G" H 12400 4125 50  0001 C CNN
+F 3 "" H 12400 4125 50  0001 C CNN
+	1    12400 4125
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2021_-_kicad5112_M466_Schematics-eagle-import:C2.5_5 C?
+U 1 1 621EC092
+P 14100 3625
+AR Path="/60CA7A69/621EC092" Ref="C?"  Part="1" 
+AR Path="/621EC092" Ref="C9"  Part="1" 
+AR Path="/62CD61A4/621EC092" Ref="C9"  Part="1" 
+F 0 "C9" V 14075 3625 59  0000 L BNN
+F 1 "4p7" V 14200 3625 59  0000 L BNN
+F 2 "M466 - Control amp:C2.5-5" H 14100 3625 50  0001 C CNN
+F 3 "" H 14100 3625 50  0001 C CNN
+	1    14100 3625
+	0    1    1    0   
+$EndComp
+$Comp
+L 2021_-_kicad5112_M466_Schematics-eagle-import:C-USC0805 C?
+U 1 1 621EC098
+P 12800 4525
+AR Path="/60CA7A69/621EC098" Ref="C?"  Part="1" 
+AR Path="/621EC098" Ref="C10"  Part="1" 
+AR Path="/62CD61A4/621EC098" Ref="C10"  Part="1" 
+F 0 "C10" H 12500 4425 59  0000 L BNN
+F 1 "68/10" H 12400 4525 59  0000 L BNN
+F 2 "M466 - Control amp:C0805" H 12800 4525 50  0001 C CNN
+F 3 "" H 12800 4525 50  0001 C CNN
+	1    12800 4525
+	-1   0    0    1   
+$EndComp
+$Comp
+L 2021_-_kicad5112_M466_Schematics-eagle-import:C-USC0805 C?
+U 1 1 621EC09E
+P 14400 4725
+AR Path="/60CA7A69/621EC09E" Ref="C?"  Part="1" 
+AR Path="/621EC09E" Ref="C12"  Part="1" 
+AR Path="/62CD61A4/621EC09E" Ref="C12"  Part="1" 
+F 0 "C12" H 14440 4750 59  0000 L BNN
+F 1 "4.7/10" H 14050 4800 59  0000 L BNN
+F 2 "M466 - Control amp:C0805" H 14400 4725 50  0001 C CNN
+F 3 "" H 14400 4725 50  0001 C CNN
+	1    14400 4725
+	-1   0    0    1   
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:-15V #P-?
+U 1 1 621EC0AA
+P 12400 3025
+AR Path="/60CA7A69/621EC0AA" Ref="#P-?"  Part="1" 
+AR Path="/621EC0AA" Ref="#P-?"  Part="1" 
+AR Path="/62CD61A4/621EC0AA" Ref="#P-?"  Part="1" 
+F 0 "#P-?" H 12400 3025 50  0001 C CNN
+F 1 "-15V" H 12125 2925 59  0000 L BNN
+F 2 "" H 12400 3025 50  0001 C CNN
+F 3 "" H 12400 3025 50  0001 C CNN
+	1    12400 3025
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 621EC0B0
+P 13100 5125
+AR Path="/60CA7A69/621EC0B0" Ref="R?"  Part="1" 
+AR Path="/621EC0B0" Ref="R27"  Part="1" 
+AR Path="/62CD61A4/621EC0B0" Ref="R27"  Part="1" 
+F 0 "R27" V 13275 5075 59  0000 L BNN
+F 1 "4M7" V 13200 5075 59  0000 L BNN
+F 2 "M466 - Control amp:R0805" H 13100 5125 50  0001 C CNN
+F 3 "" H 13100 5125 50  0001 C CNN
+	1    13100 5125
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 621EC0B6
+P 13000 6325
+AR Path="/60CA7A69/621EC0B6" Ref="R?"  Part="1" 
+AR Path="/621EC0B6" Ref="R29"  Part="1" 
+AR Path="/62CD61A4/621EC0B6" Ref="R29"  Part="1" 
+F 0 "R29" V 13125 6250 59  0000 L BNN
+F 1 "51K" V 12925 6250 59  0000 L BNN
+F 2 "M466 - Control amp:R0805" H 13000 6325 50  0001 C CNN
+F 3 "" H 13000 6325 50  0001 C CNN
+	1    13000 6325
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 2021_-_kicad5112_M466_Schematics-eagle-import:TRIM_US-3223G R?
+U 1 1 621EC0BC
+P 12400 6325
+AR Path="/60CA7A69/621EC0BC" Ref="R?"  Part="1" 
+AR Path="/621EC0BC" Ref="R30"  Part="1" 
+AR Path="/62CD61A4/621EC0BC" Ref="R30"  Part="1" 
+F 0 "R30" V 12200 6225 59  0000 L BNN
+F 1 "50K" V 12300 6225 59  0000 L BNN
+F 2 "M466 - Control amp:3223G" H 12400 6325 50  0001 C CNN
+F 3 "" H 12400 6325 50  0001 C CNN
+	1    12400 6325
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 621EC0C2
+P 13800 6725
+AR Path="/60CA7A69/621EC0C2" Ref="R?"  Part="1" 
+AR Path="/621EC0C2" Ref="R31"  Part="1" 
+AR Path="/62CD61A4/621EC0C2" Ref="R31"  Part="1" 
+F 0 "R31" V 13925 6650 59  0000 L BNN
+F 1 "22K" V 13725 6650 59  0000 L BNN
+F 2 "M466 - Control amp:R0805" H 13800 6725 50  0001 C CNN
+F 3 "" H 13800 6725 50  0001 C CNN
+	1    13800 6725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 621EC0C8
+P 13900 4525
+AR Path="/60CA7A69/621EC0C8" Ref="R?"  Part="1" 
+AR Path="/621EC0C8" Ref="R32"  Part="1" 
+AR Path="/62CD61A4/621EC0C8" Ref="R32"  Part="1" 
+F 0 "R32" V 14025 4475 59  0000 L BNN
+F 1 "150K" V 13850 4450 59  0000 L BNN
+F 2 "M466 - Control amp:R0805" H 13900 4525 50  0001 C CNN
+F 3 "" H 13900 4525 50  0001 C CNN
+	1    13900 4525
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 621EC0CE
+P 14800 4525
+AR Path="/60CA7A69/621EC0CE" Ref="R?"  Part="1" 
+AR Path="/621EC0CE" Ref="R33"  Part="1" 
+AR Path="/62CD61A4/621EC0CE" Ref="R33"  Part="1" 
+F 0 "R33" V 14925 4475 59  0000 L BNN
+F 1 "150K" V 14725 4425 59  0000 L BNN
+F 2 "M466 - Control amp:R0805" H 14800 4525 50  0001 C CNN
+F 3 "" H 14800 4525 50  0001 C CNN
+	1    14800 4525
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 2021_-_kicad5112_M466_Schematics-eagle-import:GND #GND?
+U 1 1 621EC0D4
+P 14400 4925
+AR Path="/60CA7A69/621EC0D4" Ref="#GND?"  Part="1" 
+AR Path="/621EC0D4" Ref="#GND?"  Part="1" 
+AR Path="/62CD61A4/621EC0D4" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 14400 4925 50  0001 C CNN
+F 1 "GND" H 14300 4825 59  0000 L BNN
+F 2 "" H 14400 4925 50  0001 C CNN
+F 3 "" H 14400 4925 50  0001 C CNN
+	1    14400 4925
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlAmplifier-eagle-import:-15V #P-?
+U 1 1 621EC0E6
+P 11700 5925
+AR Path="/60CA7A69/621EC0E6" Ref="#P-?"  Part="1" 
+AR Path="/621EC0E6" Ref="#P-?"  Part="1" 
+AR Path="/62CD61A4/621EC0E6" Ref="#P-?"  Part="1" 
+F 0 "#P-?" H 11700 5925 50  0001 C CNN
+F 1 "-15V" V 11600 5825 59  0000 L BNN
+F 2 "" H 11700 5925 50  0001 C CNN
+F 3 "" H 11700 5925 50  0001 C CNN
+	1    11700 5925
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10850 2325 12000 2325
+Wire Wire Line
+	14500 4225 15375 4225
+Connection ~ 15375 4225
+Wire Notes Line
+	12100 6075 12100 6625
+Wire Notes Line
+	12100 6625 12700 6625
+Wire Notes Line
+	12700 6625 12700 6075
+Wire Notes Line
+	12700 6075 12100 6075
+Text Notes 12100 6725 0    50   ~ 0
+Release Cal
+$Comp
+L Device:R_Potentiometer_US R98
+U 1 1 62A13F23
+P 14925 6975
+F 0 "R98" V 15025 7125 50  0000 C CNN
+F 1 "7.5k" V 14825 6975 50  0000 C CNN
+F 2 "" H 14925 6975 50  0001 C CNN
+F 3 "~" H 14925 6975 50  0001 C CNN
+	1    14925 6975
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 62B6F511
+P 15175 7300
+F 0 "#PWR?" H 15175 7050 50  0001 C CNN
+F 1 "GNDREF" H 15180 7127 50  0001 C CNN
+F 2 "" H 15175 7300 50  0001 C CNN
+F 3 "" H 15175 7300 50  0001 C CNN
+	1    15175 7300
+	1    0    0    -1  
+$EndComp
+Connection ~ 14925 5125
+Wire Wire Line
+	14925 5125 15000 5125
+Wire Wire Line
+	15075 6975 15175 6975
+Wire Wire Line
+	15175 6975 15175 7300
+Wire Notes Line
+	14625 6725 14625 7225
+Wire Notes Line
+	14625 7225 15250 7225
+Wire Notes Line
+	15250 7225 15250 6725
+Wire Notes Line
+	15250 6725 14625 6725
+Text Notes 14975 6700 0    50   ~ 0
+Limit Release
+Text Notes 14675 7075 0    25   ~ 0
+MAX\n<—CW
+Text Notes 15150 7025 2    25   ~ 0
+MIN
+Text Notes 14950 5225 0    50   ~ 0
+t
+Text Notes 14325 6700 0    50   ~ 0
+u
+Wire Wire Line
+	14350 6975 14350 6725
+Wire Wire Line
+	14350 6975 14775 6975
+Wire Wire Line
+	14925 5125 14925 6825
+Connection ~ 14350 6725
+Wire Notes Line
+	16025 7725 16025 1600
+Text Notes 1200 7600 0    200  ~ 0
+Limit Control Block 
+Wire Wire Line
+	15375 3500 16300 3500
+Wire Wire Line
+	15375 4225 16325 4225
+Text Notes 16350 3625 0    50   ~ 0
+\n\n(Feed into DC Block)
+Wire Wire Line
+	2950 4675 3775 4675
+Wire Notes Line
+	16025 1600 1075 1600
+Wire Notes Line
+	1075 1600 1075 7650
+Wire Notes Line
+	1075 7650 16025 7650
+Wire Notes Line
+	12075 3825 12075 4450
+Wire Notes Line
+	12075 4450 12625 4450
+Wire Notes Line
+	12625 4450 12625 3825
+Wire Notes Line
+	12625 3825 12075 3825
+Text Notes 12100 4000 0    50   ~ 0
+Thld\nCal
+Wire Wire Line
+	13500 3625 13500 3925
+Wire Wire Line
+	13500 2525 13500 3425
+$Comp
+L power:GNDREF GND
+U 1 1 2DA03382
+P 3575 4350
+F 0 "GND" H 3575 4350 50  0001 C CNN
+F 1 "GNDREF" H 3475 4250 59  0001 L BNN
+F 2 "" H 3575 4350 50  0001 C CNN
+F 3 "" H 3575 4350 50  0001 C CNN
+	1    3575 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4775 3500 4775 3850
+Wire Wire Line
+	4775 3050 4775 3200
+$Comp
+L 2021_-_kicad5112_M466_Schematics-eagle-import:PVA2 S3
+U 1 1 181626C1
+P 3675 4050
+F 0 "S3" H 3675 4050 50  0001 C CNN
+F 1 "PVA2" V 3450 4175 59  0001 L BNN
+F 2 "M466-compressor-limiter:PVA2F" H 3675 4050 50  0001 C CNN
+F 3 "" H 3675 4050 50  0001 C CNN
+	1    3675 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L 2021_-_kicad5112_M466_Schematics-eagle-import:PVA2 S3
+U 1 1 181626CD
+P 4075 4050
+F 0 "S3" H 4075 4050 50  0001 C CNN
+F 1 "PVA2" V 3850 4175 59  0001 L BNN
+F 2 "M466-compressor-limiter:PVA2F" H 4075 4050 50  0001 C CNN
+F 3 "" H 4075 4050 50  0001 C CNN
+	1    4075 4050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5450 2425 5450 2675
+Wire Wire Line
+	5450 2975 5450 3225
+Wire Wire Line
+	6700 2225 7150 2225
+Wire Wire Line
+	6250 2225 6400 2225
+Wire Wire Line
+	6250 3525 6400 3525
+Wire Wire Line
+	6700 3525 6850 3525
+Wire Wire Line
+	6250 3525 6250 3825
+Wire Wire Line
+	8150 2225 8150 2775
+Wire Wire Line
+	8150 3125 8150 3075
+Wire Wire Line
+	7450 3525 7800 3525
+Wire Wire Line
+	8100 3525 8350 3525
+Wire Wire Line
+	6950 3925 7800 3925
+Wire Wire Line
+	8100 3925 8350 3925
+$Comp
+L power:GNDREF #GND26
+U 1 1 A5262D8C
+P 7250 5125
+F 0 "#GND26" H 7250 5125 50  0001 C CNN
+F 1 "GNDREF" H 7150 5025 59  0001 L BNN
+F 2 "" H 7250 5125 50  0001 C CNN
+F 3 "" H 7250 5125 50  0001 C CNN
+	1    7250 5125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 4925 7250 5125
+Wire Wire Line
+	8150 4725 8150 5275
+Wire Wire Line
+	8150 5625 8150 5575
+Wire Wire Line
+	6950 6025 7700 6025
+Wire Wire Line
+	8000 6025 8450 6025
+Wire Wire Line
+	9050 3425 9050 3775
+Wire Wire Line
+	9050 4075 9050 4825
+Wire Wire Line
+	9550 3425 9550 3625
+Wire Wire Line
+	9050 2325 9050 2775
+Wire Wire Line
+	9050 3075 9050 3425
+$Comp
+L 2021_-_kicad5112_M466_Schematics-eagle-import:1N4004 CR10
+U 1 1 42122AAC
+P 9550 2325
+F 0 "CR10" H 9650 2344 59  0000 L BNN
+F 1 "1N4004" H 9650 2234 59  0000 L BNN
+F 2 "M466-compressor-limiter:DO41-10" H 9550 2325 50  0001 C CNN
+F 3 "" H 9550 2325 50  0001 C CNN
+	1    9550 2325
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9850 2325 10200 2325
+Wire Wire Line
+	10500 2325 10850 2325
+Wire Wire Line
+	10850 2525 10850 2675
+Wire Wire Line
+	10850 2975 10850 3225
+$Comp
+L 2021_-_kicad5112_M466_Schematics-eagle-import:C-USC0805 C38
+U 1 1 6241C325
+P 10450 2925
+F 0 "C38" H 10490 2950 59  0000 L BNN
+F 1 "1/35" H 10490 2760 59  0000 L BNN
+F 2 "M466-compressor-limiter:C0805" H 10450 2925 50  0001 C CNN
+F 3 "" H 10450 2925 50  0001 C CNN
+	1    10450 2925
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10450 3225 10450 3625
+$Comp
+L Device:R_US R?
+U 1 1 621EC080
+P 12400 3425
+AR Path="/60CA7A69/621EC080" Ref="R?"  Part="1" 
+AR Path="/621EC080" Ref="R24"  Part="1" 
+AR Path="/62CD61A4/621EC080" Ref="R24"  Part="1" 
+F 0 "R24" H 12450 3300 59  0000 L BNN
+F 1 "22K" H 12450 3375 59  0000 L BNN
+F 2 "M466 - Control amp:R0805" H 12400 3425 50  0001 C CNN
+F 3 "" H 12400 3425 50  0001 C CNN
+	1    12400 3425
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12400 3125 12400 3275
+Wire Wire Line
+	12400 3575 12400 3825
+$Comp
+L power:GNDREF #GND?
+U 1 1 621EC0A4
+P 12400 4825
+AR Path="/60CA7A69/621EC0A4" Ref="#GND?"  Part="1" 
+AR Path="/621EC0A4" Ref="#GND?"  Part="1" 
+AR Path="/62CD61A4/621EC0A4" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 12400 4825 50  0001 C CNN
+F 1 "GNDREF" H 12300 4725 59  0001 L BNN
+F 2 "" H 12400 4825 50  0001 C CNN
+F 3 "" H 12400 4825 50  0001 C CNN
+	1    12400 4825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 621EC08C
+P 13100 4125
+AR Path="/60CA7A69/621EC08C" Ref="R?"  Part="1" 
+AR Path="/621EC08C" Ref="R26"  Part="1" 
+AR Path="/62CD61A4/621EC08C" Ref="R26"  Part="1" 
+F 0 "R26" V 12975 3975 59  0000 L BNN
+F 1 "22K" V 13050 3975 59  0000 L BNN
+F 2 "M466 - Control amp:R0805" H 13100 4125 50  0001 C CNN
+F 3 "" H 13100 4125 50  0001 C CNN
+	1    13100 4125
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12800 4125 12950 4125
+Wire Wire Line
+	13250 4125 13500 4125
+Wire Wire Line
+	12000 5125 12950 5125
+Wire Wire Line
+	13250 5125 14925 5125
+$Comp
+L 2021_-_kicad5112_M466_Schematics-eagle-import:GND #GND?
+U 1 1 621EC0DA
+P 11900 6425
+AR Path="/60CA7A69/621EC0DA" Ref="#GND?"  Part="1" 
+AR Path="/621EC0DA" Ref="#GND?"  Part="1" 
+AR Path="/62CD61A4/621EC0DA" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 11900 6425 50  0001 C CNN
+F 1 "GND" H 11800 6325 59  0000 L BNN
+F 2 "" H 11900 6425 50  0001 C CNN
+F 3 "" H 11900 6425 50  0001 C CNN
+	1    11900 6425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12700 6325 12850 6325
+Wire Wire Line
+	13150 6325 13300 6325
+Wire Wire Line
+	11800 5925 12850 5925
+Wire Wire Line
+	13150 5925 13300 5925
+Wire Wire Line
+	13950 6725 14350 6725
+Wire Wire Line
+	13300 6725 13650 6725
+Wire Wire Line
+	14400 5725 14400 5975
+Wire Wire Line
+	14400 6275 14400 6325
+$Comp
+L Device:R_US R?
+U 1 1 621EC0E0
+P 13000 5925
+AR Path="/60CA7A69/621EC0E0" Ref="R?"  Part="1" 
+AR Path="/621EC0E0" Ref="R39"  Part="1" 
+AR Path="/62CD61A4/621EC0E0" Ref="R39"  Part="1" 
+F 0 "R39" V 13125 5900 59  0000 L BNN
+F 1 "1M" V 12950 5900 59  0000 L BNN
+F 2 "M466 - Control amp:R0805" H 13000 5925 50  0001 C CNN
+F 3 "" H 13000 5925 50  0001 C CNN
+	1    13000 5925
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14500 2325 14500 2575
+Wire Wire Line
+	14500 2925 14500 2875
+Wire Wire Line
+	15375 3500 15375 3750
+Wire Wire Line
+	15375 4050 15375 4225
+$Comp
+L Device:R_US R?
+U 1 1 621EC074
+P 13700 3425
+AR Path="/60CA7A69/621EC074" Ref="R?"  Part="1" 
+AR Path="/621EC074" Ref="R22"  Part="1" 
+AR Path="/62CD61A4/621EC074" Ref="R22"  Part="1" 
+F 0 "R22" V 13825 3375 59  0000 L BNN
+F 1 "100K" V 13650 3325 59  0000 L BNN
+F 2 "M466 - Control amp:R0805" H 13700 3425 50  0001 C CNN
+F 3 "" H 13700 3425 50  0001 C CNN
+	1    13700 3425
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13850 3425 14400 3425
+Wire Wire Line
+	13550 3425 13500 3425
+Connection ~ 13500 3425
+Wire Wire Line
+	13500 3425 13500 3625
+Wire Wire Line
+	13850 3925 14100 3925
+Wire Wire Line
+	13550 3925 13500 3925
+Connection ~ 13500 3925
+Wire Wire Line
+	13500 3925 13500 4125
+Wire Wire Line
+	13500 4525 13750 4525
+Wire Wire Line
+	14950 4525 15000 4525
+Wire Wire Line
+	15375 4225 15375 4375
+Wire Wire Line
+	15375 4675 15375 4825
+Wire Wire Line
+	14050 4525 14400 4525
+Connection ~ 14400 4525
+Wire Wire Line
+	14400 4525 14650 4525
+Text HLabel 16300 3500 2    50   Output ~ 0
+DCVoltageOutput
+Text Notes 16300 4375 0    50   ~ 0
+(Feed into GR/Limit LEDs Block)
+Text HLabel 16325 4225 2    50   Output ~ 0
+MonitoringOuput
+Text HLabel 950  4175 0    50   Input ~ 0
+AudioInput
+Wire Wire Line
+	950  4175 2800 4175
+Wire Wire Line
+	3575 4350 3575 4250
+Text Label 11750 2325 0    50   ~ 0
+IE12
+Text Label 14600 5825 0    50   ~ 0
+IE3
+Text Label 14925 6475 0    50   ~ 0
+IE4
+Text HLabel 4775 4725 2    50   BiDi ~ 0
+Enabled
+$EndSCHEMATC
